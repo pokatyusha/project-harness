@@ -10,7 +10,7 @@ $requiredFiles = @(
     'metrics.md', 'tokens.md', 'templates/weekly-plan.md', 'templates/task.md',
     'templates/decision.md', 'templates/interview-notes.md', 'workflows/pm.md',
     'workflows/direction-2.5.md', 'workflows/video.md', 'workflows/presentations.md',
-    'workflows/pilot-users.md'
+    'workflows/pilot-users.md', 'workflows/worktree.md', 'templates/parallel-task.md'
 )
 
 foreach ($path in $requiredFiles) {

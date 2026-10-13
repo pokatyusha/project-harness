@@ -23,3 +23,11 @@
 - Decision: use a concise `AGENTS.md` entry point and a deterministic local verifier before adding hooks or CI.
 - Rationale: the harness now needs rules and a clear pass/fail check; no recurring failure yet justifies more automation.
 - Owner: project owner
+
+## D-004 — Gate parallel work before creating a worktree
+
+- Date: 2026-10-13
+- Status: active
+- Decision: create a task worktree only after independence, Definition of Done, checks, merge ownership, and cleanup have been recorded.
+- Rationale: parallelism increases throughput only when it does not create hidden dependencies, stale branches, or unchecked merges.
+- Owner: project owner

@@ -28,6 +28,8 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Before reporting a change as complete, run `git diff --check` and `scripts/verify-harness.ps1`.
 - When the same operation has been used three times, package it as a focused workflow or skill with a clear input, output, and verification step.
 - Keep secrets, passwords, API keys, and participant identifiers out of the repository.
+- Parallel work requires a separate branch and worktree only after the task passes the readiness gate in `workflows/worktree.md`.
+- Keep parallel tasks small; record their Definition of Done, checks, merge owner, and cleanup condition before starting.
 
 ## Commands
 
