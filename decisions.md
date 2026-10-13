@@ -39,3 +39,11 @@
 - Decision: maintain project-local skills in `.agents/skills/`; capture a practice after its first and second use and package it on the third repeat, unless the owner explicitly requests earlier packaging.
 - Rationale: retains reusable operating knowledge without filling the repository with speculative or overly broad skills.
 - Owner: project owner
+
+## D-006 — Four read-only project context slots
+
+- Date: 2026-10-14
+- Status: active
+- Decision: configure four explicit project slots in `orchestrator/projects.toml`; collect source-project context only after the owner maps an absolute root and marks the slot ready.
+- Rationale: supports cross-project planning while preventing invented paths, accidental source-project writes, and uncontrolled context collection.
+- Owner: project owner

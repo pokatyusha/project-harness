@@ -1,6 +1,6 @@
 # State
 
-Updated: 2026-10-13 (Europe/Moscow)
+Updated: 2026-10-14 (Europe/Moscow)
 
 ## Week focus
 
@@ -33,9 +33,14 @@ No task worktrees are active. A worktree is permitted only for a task that passe
 
 The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. No speculative operational skills have been created.
 
+## Multi-project orchestrator
+
+Four read-only slots are configured in `orchestrator/projects.toml`. All roots are intentionally unmapped, so context collection is blocked until the owner supplies four absolute folder paths and marks each slot `ready`.
+
 ## Session log
 
 - 2026-10-13: initialized the separate repository `project-harness`, registered the supplied project repository, and pushed the harness to `https://github.com/pokatyusha/project-harness` (`main`).
 - 2026-10-13: applied the supplied harness guidance: normalized the agent entry point to `AGENTS.md` and added the local verifier; the verifier passed.
 - 2026-10-13: applied the worktree guidance as a parallel-work gate; no additional worktree was created because no eligible task has been selected.
 - 2026-10-14: added a project-local skill authoring workflow and canvas; the structure is ready to retain proven practices across sessions.
+- 2026-10-14: configured the multi-project orchestrator structure, collection prompts, and file-retrieval map; no source project has been read.

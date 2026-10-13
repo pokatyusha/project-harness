@@ -11,13 +11,22 @@ $requiredFiles = @(
     'templates/decision.md', 'templates/interview-notes.md', 'workflows/pm.md',
     'workflows/direction-2.5.md', 'workflows/video.md', 'workflows/presentations.md',
     'workflows/pilot-users.md', 'workflows/worktree.md', 'templates/parallel-task.md',
-    'templates/skill-canvas.md', '.agents/skills/project-skill-authoring/SKILL.md'
+    'templates/skill-canvas.md', 'templates/project-context-card.md',
+    'orchestrator/projects.toml', 'orchestrator/context-index.md',
+    'orchestrator/prompts/collect-project-context.md', 'orchestrator/prompts/resolve-context-files.md',
+    '.agents/skills/project-skill-authoring/SKILL.md', '.agents/skills/multi-project-context/SKILL.md'
 )
 
 foreach ($path in $requiredFiles) {
     if (-not (Test-Path -LiteralPath (Join-Path $root $path) -PathType Leaf)) {
         $failures.Add("Missing required file: $path")
     }
+}
+
+$orchestratorConfig = Get-Content -LiteralPath (Join-Path $root 'orchestrator/projects.toml') -Raw
+$configuredProjectCount = ([regex]::Matches($orchestratorConfig, '(?m)^\[projects\.project-0[1-4]\]$')).Count
+if ($configuredProjectCount -ne 4) {
+    $failures.Add('Orchestrator must define exactly four project slots')
 }
 
 $skillFiles = Get-ChildItem -LiteralPath (Join-Path $root '.agents/skills') -Recurse -File -Filter 'SKILL.md'

@@ -1,0 +1,70 @@
+# Fill one absolute root per project. Empty roots deliberately block collection.
+
+[orchestrator]
+mode = "read-only"
+context_index = "orchestrator/context-index.md"
+
+# These files are the default starting points for every project. Retrieve only
+# the smallest relevant subset and add project-specific paths only when needed.
+common_context_paths = [
+  "AGENTS.md",
+  "CLAUDE.md",
+  "README.md",
+  "state.md",
+  "registry.md",
+  "decisions.md",
+  "risks.md",
+  "docs/**",
+  "package.json",
+  "pyproject.toml",
+  "README*"
+]
+
+excluded_paths = [
+  ".git/**",
+  "node_modules/**",
+  ".venv/**",
+  "venv/**",
+  "dist/**",
+  "build/**",
+  "coverage/**",
+  ".env*",
+  "secrets/**",
+  "private/**"
+]
+
+[projects.project-01]
+name = ""
+root = ""
+repository = ""
+branch = ""
+status = "awaiting-mapping"
+context_file = "orchestrator/context/project-01.md"
+additional_context_paths = []
+
+[projects.project-02]
+name = ""
+root = ""
+repository = ""
+branch = ""
+status = "awaiting-mapping"
+context_file = "orchestrator/context/project-02.md"
+additional_context_paths = []
+
+[projects.project-03]
+name = ""
+root = ""
+repository = ""
+branch = ""
+status = "awaiting-mapping"
+context_file = "orchestrator/context/project-03.md"
+additional_context_paths = []
+
+[projects.project-04]
+name = ""
+root = ""
+repository = ""
+branch = ""
+status = "awaiting-mapping"
+context_file = "orchestrator/context/project-04.md"
+additional_context_paths = []
