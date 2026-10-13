@@ -4,6 +4,13 @@
 
 Maintain project context and move five tracks forward: PM, Direction 2.5, video, presentations, and pilot users.
 
+## First minute
+
+- Durable state: `state.md`, `registry.md`, `decisions.md`, `risks.md`, `metrics.md`, and `tokens.md`.
+- Repeatable work: `workflows/`; reusable records: `templates/`.
+- Read the relevant state block and one workflow before acting.
+- Verify a completed change with the commands below, then record the fact, decision, or risk.
+
 ## Sources of truth
 
 - Repository files and the team's Obsidian vault are authoritative.
@@ -18,6 +25,16 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Do not send emails, invitations, publish content, or contact people without owner confirmation.
 - Keep command output to errors and the useful tail.
 - At session end, update `state.md` and `registry.md`.
+- Before reporting a change as complete, run `git diff --check` and `scripts/verify-harness.ps1`.
+- When the same operation has been used three times, package it as a focused workflow or skill with a clear input, output, and verification step.
+- Keep secrets, passwords, API keys, and participant identifiers out of the repository.
+
+## Commands
+
+```powershell
+git diff --check
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\verify-harness.ps1
+```
 
 ## Reply format
 

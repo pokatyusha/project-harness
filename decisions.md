@@ -15,3 +15,11 @@
 - Decision: repository files and Obsidian are sources of truth; chat is a communication channel.
 - Rationale: supplied operating rule.
 - Owner: project owner
+
+## D-003 — Incremental harness controls
+
+- Date: 2026-10-13
+- Status: active
+- Decision: use a concise `AGENTS.md` entry point and a deterministic local verifier before adding hooks or CI.
+- Rationale: the harness now needs rules and a clear pass/fail check; no recurring failure yet justifies more automation.
+- Owner: project owner

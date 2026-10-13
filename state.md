@@ -21,6 +21,11 @@ Create the shared operating baseline: confirm scope, owners, and source location
 - YouGile tracker must be available to its connector before epics can be created and linked.
 - Obsidian vault path and ownership map have not yet been supplied.
 
+## Harness maturity
+
+L2 — concise rules, reusable workflows, and a repeatable local pass/fail verifier are present. Hooks and CI are deliberately deferred until a concrete recurring need appears.
+
 ## Session log
 
 - 2026-10-13: initialized the separate repository `project-harness`, registered the supplied project repository, and pushed the harness to `https://github.com/pokatyusha/project-harness` (`main`).
+- 2026-10-13: applied the supplied harness guidance: normalized the agent entry point to `AGENTS.md` and added the local verifier; the verifier passed.
