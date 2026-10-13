@@ -10,12 +10,38 @@ $requiredFiles = @(
     'metrics.md', 'tokens.md', 'templates/weekly-plan.md', 'templates/task.md',
     'templates/decision.md', 'templates/interview-notes.md', 'workflows/pm.md',
     'workflows/direction-2.5.md', 'workflows/video.md', 'workflows/presentations.md',
-    'workflows/pilot-users.md', 'workflows/worktree.md', 'templates/parallel-task.md'
+    'workflows/pilot-users.md', 'workflows/worktree.md', 'templates/parallel-task.md',
+    'templates/skill-canvas.md', '.agents/skills/project-skill-authoring/SKILL.md'
 )
 
 foreach ($path in $requiredFiles) {
     if (-not (Test-Path -LiteralPath (Join-Path $root $path) -PathType Leaf)) {
         $failures.Add("Missing required file: $path")
+    }
+}
+
+$skillFiles = Get-ChildItem -LiteralPath (Join-Path $root '.agents/skills') -Recurse -File -Filter 'SKILL.md'
+foreach ($skillFile in $skillFiles) {
+    $skillContent = Get-Content -LiteralPath $skillFile.FullName -Raw
+    if ($skillContent -notmatch '(?s)\A---\s*\r?\nname:\s*[^\r\n]+\r?\ndescription:\s*[^\r\n]+\r?\n---') {
+        $relative = $skillFile.FullName.Substring($root.Length).TrimStart('\', '/')
+        $failures.Add("Invalid SKILL.md frontmatter: $relative")
+        continue
+    }
+
+    $skillName = [regex]::Match($skillContent, '(?m)^name:\s*([^\r\n]+)').Groups[1].Value.Trim()
+    $skillDescription = [regex]::Match($skillContent, '(?m)^description:\s*([^\r\n]+)').Groups[1].Value.Trim()
+    if ($skillName -notmatch '^[a-z0-9]+(?:-[a-z0-9]+)*$' -or $skillName.Length -gt 64) {
+        $relative = $skillFile.FullName.Substring($root.Length).TrimStart('\', '/')
+        $failures.Add("Invalid skill name: $relative")
+    }
+    if ($skillDescription.Length -eq 0 -or $skillDescription.Length -gt 1024 -or $skillDescription -match '^(?i:\[TODO:)' -or $skillDescription -match '[<>]') {
+        $relative = $skillFile.FullName.Substring($root.Length).TrimStart('\', '/')
+        $failures.Add("Invalid skill description: $relative")
+    }
+    if ($skillContent -match '(?im)^\s*\[TODO:[^\r\n]*\]\s*$') {
+        $relative = $skillFile.FullName.Substring($root.Length).TrimStart('\', '/')
+        $failures.Add("Unfinished skill placeholder: $relative")
     }
 }
 

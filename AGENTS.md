@@ -8,6 +8,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 
 - Durable state: `state.md`, `registry.md`, `decisions.md`, `risks.md`, `metrics.md`, and `tokens.md`.
 - Repeatable work: `workflows/`; reusable records: `templates/`.
+- Project-local skills: `.agents/skills/`; load only a skill whose description matches the task.
 - Read the relevant state block and one workflow before acting.
 - Verify a completed change with the commands below, then record the fact, decision, or risk.
 
@@ -27,6 +28,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - At session end, update `state.md` and `registry.md`.
 - Before reporting a change as complete, run `git diff --check` and `scripts/verify-harness.ps1`.
 - When the same operation has been used three times, package it as a focused workflow or skill with a clear input, output, and verification step.
+- Capture the first and second use of a potential skill with `templates/skill-canvas.md`; do not create broad speculative skills.
 - Keep secrets, passwords, API keys, and participant identifiers out of the repository.
 - Parallel work requires a separate branch and worktree only after the task passes the readiness gate in `workflows/worktree.md`.
 - Keep parallel tasks small; record their Definition of Done, checks, merge owner, and cleanup condition before starting.

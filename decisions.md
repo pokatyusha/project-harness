@@ -31,3 +31,11 @@
 - Decision: create a task worktree only after independence, Definition of Done, checks, merge ownership, and cleanup have been recorded.
 - Rationale: parallelism increases throughput only when it does not create hidden dependencies, stale branches, or unchecked merges.
 - Owner: project owner
+
+## D-005 — Package skills from proven project practice
+
+- Date: 2026-10-14
+- Status: active
+- Decision: maintain project-local skills in `.agents/skills/`; capture a practice after its first and second use and package it on the third repeat, unless the owner explicitly requests earlier packaging.
+- Rationale: retains reusable operating knowledge without filling the repository with speculative or overly broad skills.
+- Owner: project owner

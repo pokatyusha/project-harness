@@ -7,3 +7,4 @@
 | R-003 | Track briefs, owners, and success criteria are not yet recorded | Weekly plan cannot be committed as plan/fact | Open | Confirm inputs during baseline review. |
 | R-004 | Verification is local only | Repository quality controls are not enforced remotely | Open | Reassess a CI check after the workflow stabilizes or the first recurring verification failure. |
 | R-005 | Parallel tasks may conflict or drift from the base branch | Merge cost rises and work may be duplicated | Open | Apply `workflows/worktree.md` before parallelizing; keep branches short-lived and checks explicit. |
+| R-006 | Project skills may become stale or too broad | Agents apply the wrong procedure or ignore the skill | Open | Assign an owner and revision trigger in every skill; keep descriptions specific and validate frontmatter. |
