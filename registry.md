@@ -6,7 +6,7 @@ Updated: 2026-10-13 (Europe/Moscow)
 
 | Name | Role | Location | Default branch | Access / status |
 |---|---|---|---|---|
-| project-harness | Project operating context | `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness` | `main` | Separate local Git repository; personal GitHub remote pending creation. |
+| project-harness | Project operating context | `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness` | `main` | Separate local Git repository; initial commit `635fbd6`; personal GitHub remote pending creation. |
 | PP-Sber-Autumn-2026 | Main project repository | https://github.com/AcryCxde/PP-Sber-Autumn-2026 | `master` | GitHub connector verified push access on 2026-10-13. |
 
 ## Work trackers and knowledge base
