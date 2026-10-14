@@ -1,0 +1,31 @@
+schema: spec-driven
+
+context: |
+  This repository is a cross-project operating harness. Repository files and
+  Obsidian are authoritative; chat is a communication channel. The four mapped
+  source projects are read-only until the owner explicitly authorizes work in a
+  named source project. Do not invent folder paths, requirements, dates,
+  participant details, or external approvals. Keep secrets and personal data
+  out of OpenSpec artifacts. Record durable decisions, risks, and plan/fact in
+  the harness records named in AGENTS.md.
+
+rules:
+  proposal:
+    - State the target repository or project slot, problem, scope, non-goals, acceptance criteria, assumptions, and dependencies.
+    - Link to observed source files or explicitly mark unavailable source context.
+  specs:
+    - Express externally observable requirements and measurable acceptance criteria; do not prescribe implementation without a design rationale.
+  design:
+    - Keep the design proportionate to the change and identify effects on tracker, repository, and context cards when applicable.
+  tasks:
+    - Keep tasks independently checkable and name the required verification command or evidence for each implementation task.
+
+operations:
+  apply:
+    guidance:
+      - Apply only after an explicit owner request that names the change and target repository.
+      - Do not contact people, publish, invite, or write to third-party systems without separate confirmation.
+      - Update state.md and registry.md at the end of the session.
+  archive:
+    guidance:
+      - Archive only after verification evidence is recorded and the owner confirms the change is complete.

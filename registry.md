@@ -6,7 +6,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 
 | Name | Role | Location | Default branch | Access / status |
 |---|---|---|---|---|
-| project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; local verifier passed on 2026-10-14; no task worktree active; project skills live in `.agents/skills/`. |
+| project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-14; no task worktree active; project skills live in `.agents/skills/`. |
 | PP-Sber-Autumn-2026 | Main project repository | https://github.com/AcryCxde/PP-Sber-Autumn-2026 | `master` | GitHub connector verified push access on 2026-10-13. |
 
 ## Work trackers and knowledge base
@@ -20,7 +20,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 
 | Project slot | Root | Context card | Status |
 |---|---|---|---|
-| project-01 | Not mapped | `orchestrator/context/project-01.md` | MAPPING_REQUIRED |
-| project-02 | Not mapped | `orchestrator/context/project-02.md` | MAPPING_REQUIRED |
-| project-03 | Not mapped | `orchestrator/context/project-03.md` | MAPPING_REQUIRED |
-| project-04 | Not mapped | `orchestrator/context/project-04.md` | MAPPING_REQUIRED |
+| project-01 | Not mapped | `orchestrator/context/project-01.md` | MAPPING_REQUIRED; OpenSpec pending root |
+| project-02 | Not mapped | `orchestrator/context/project-02.md` | MAPPING_REQUIRED; OpenSpec pending root |
+| project-03 | Not mapped | `orchestrator/context/project-03.md` | MAPPING_REQUIRED; OpenSpec pending root |
+| project-04 | Not mapped | `orchestrator/context/project-04.md` | MAPPING_REQUIRED; OpenSpec pending root |

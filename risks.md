@@ -9,3 +9,4 @@
 | R-005 | Parallel tasks may conflict or drift from the base branch | Merge cost rises and work may be duplicated | Open | Apply `workflows/worktree.md` before parallelizing; keep branches short-lived and checks explicit. |
 | R-006 | Project skills may become stale or too broad | Agents apply the wrong procedure or ignore the skill | Open | Assign an owner and revision trigger in every skill; keep descriptions specific and validate frontmatter. |
 | R-007 | Unmapped or stale source-project context | Cross-project planning may rely on missing or outdated facts | Open | Block collection until a root is mapped; mark each context card with retrieval time, uncertainty, and refresh trigger. |
+| R-008 | OpenSpec workflow diverges between project folders | Plans or implementation checks may become inconsistent | Open | Keep the same `spec-driven` schema as the harness when each mapped project is initialized; record any justified deviation in `decisions.md`. |

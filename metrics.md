@@ -23,3 +23,4 @@
 | Project folders mapped | 0 / 4 | 4 / 4 | 0 / 4 | `orchestrator/projects.toml` | On mapping |
 | Context cards in READY state | 0 / 4 | Fit for current planning question | 0 / 4 | `orchestrator/context-index.md` | On collection |
 | Context cards refreshed when required | TBD | 100% | TBD | Context index | Weekly |
+| Mapped projects with initialized OpenSpec | 0 / 4 | 4 / 4 where durable implementation is planned | 0 / 4 | `orchestrator/projects.toml` | On initialization |

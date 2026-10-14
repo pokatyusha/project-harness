@@ -13,6 +13,7 @@ $requiredFiles = @(
     'workflows/pilot-users.md', 'workflows/worktree.md', 'templates/parallel-task.md',
     'templates/skill-canvas.md', 'templates/project-context-card.md',
     'orchestrator/projects.toml', 'orchestrator/context-index.md',
+    'orchestrator/interaction.md', 'openspec/config.yaml',
     'orchestrator/prompts/collect-project-context.md', 'orchestrator/prompts/resolve-context-files.md',
     '.agents/skills/project-skill-authoring/SKILL.md', '.agents/skills/multi-project-context/SKILL.md'
 )
@@ -32,14 +33,15 @@ if ($configuredProjectCount -ne 4) {
 $skillFiles = Get-ChildItem -LiteralPath (Join-Path $root '.agents/skills') -Recurse -File -Filter 'SKILL.md'
 foreach ($skillFile in $skillFiles) {
     $skillContent = Get-Content -LiteralPath $skillFile.FullName -Raw
-    if ($skillContent -notmatch '(?s)\A---\s*\r?\nname:\s*[^\r\n]+\r?\ndescription:\s*[^\r\n]+\r?\n---') {
+    $frontmatter = [regex]::Match($skillContent, '(?s)\A---\s*\r?\n(.*?)\r?\n---')
+    if (-not $frontmatter.Success -or $frontmatter.Groups[1].Value -notmatch '(?m)^name:\s*[^\r\n]+' -or $frontmatter.Groups[1].Value -notmatch '(?m)^description:\s*[^\r\n]+') {
         $relative = $skillFile.FullName.Substring($root.Length).TrimStart('\', '/')
         $failures.Add("Invalid SKILL.md frontmatter: $relative")
         continue
     }
 
-    $skillName = [regex]::Match($skillContent, '(?m)^name:\s*([^\r\n]+)').Groups[1].Value.Trim()
-    $skillDescription = [regex]::Match($skillContent, '(?m)^description:\s*([^\r\n]+)').Groups[1].Value.Trim()
+    $skillName = [regex]::Match($frontmatter.Groups[1].Value, '(?m)^name:\s*([^\r\n]+)').Groups[1].Value.Trim()
+    $skillDescription = [regex]::Match($frontmatter.Groups[1].Value, '(?m)^description:\s*([^\r\n]+)').Groups[1].Value.Trim()
     if ($skillName -notmatch '^[a-z0-9]+(?:-[a-z0-9]+)*$' -or $skillName.Length -gt 64) {
         $relative = $skillFile.FullName.Substring($root.Length).TrimStart('\', '/')
         $failures.Add("Invalid skill name: $relative")

@@ -40,6 +40,8 @@ repository = ""
 branch = ""
 status = "awaiting-mapping"
 context_file = "orchestrator/context/project-01.md"
+openspec_root = "openspec"
+openspec_status = "pending-initialization"
 additional_context_paths = []
 
 [projects.project-02]
@@ -49,6 +51,8 @@ repository = ""
 branch = ""
 status = "awaiting-mapping"
 context_file = "orchestrator/context/project-02.md"
+openspec_root = "openspec"
+openspec_status = "pending-initialization"
 additional_context_paths = []
 
 [projects.project-03]
@@ -58,6 +62,8 @@ repository = ""
 branch = ""
 status = "awaiting-mapping"
 context_file = "orchestrator/context/project-03.md"
+openspec_root = "openspec"
+openspec_status = "pending-initialization"
 additional_context_paths = []
 
 [projects.project-04]
@@ -67,4 +73,6 @@ repository = ""
 branch = ""
 status = "awaiting-mapping"
 context_file = "orchestrator/context/project-04.md"
+openspec_root = "openspec"
+openspec_status = "pending-initialization"
 additional_context_paths = []

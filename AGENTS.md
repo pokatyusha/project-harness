@@ -10,6 +10,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Repeatable work: `workflows/`; reusable records: `templates/`.
 - Project-local skills: `.agents/skills/`; load only a skill whose description matches the task.
 - Multi-project configuration and retrieval prompts: `orchestrator/`.
+- Change specifications: `openspec/`; use the target phrases in `orchestrator/interaction.md`.
 - Read the relevant state block and one workflow before acting.
 - Verify a completed change with the commands below, then record the fact, decision, or risk.
 
@@ -34,6 +35,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Parallel work requires a separate branch and worktree only after the task passes the readiness gate in `workflows/worktree.md`.
 - Keep parallel tasks small; record their Definition of Done, checks, merge owner, and cleanup condition before starting.
 - Retrieve context from project folders only through `.agents/skills/multi-project-context/SKILL.md` and only after their configured root paths are filled.
+- Use OpenSpec for durable changes to the harness or a mapped product project: explore/propose before implementation, then apply, verify, and archive as separate owner requests.
 
 ## Commands
 

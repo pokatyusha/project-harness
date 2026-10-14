@@ -47,3 +47,11 @@
 - Decision: configure four explicit project slots in `orchestrator/projects.toml`; collect source-project context only after the owner maps an absolute root and marks the slot ready.
 - Rationale: supports cross-project planning while preventing invented paths, accidental source-project writes, and uncontrolled context collection.
 - Owner: project owner
+
+## D-007 — OpenSpec for durable change planning
+
+- Date: 2026-10-14
+- Status: active
+- Decision: use OpenSpec's `spec-driven` workflow for durable changes to `project-harness` and, after mapping and explicit owner authorization, to source projects; initialize it separately in each mapped source project rather than sharing a mutable cross-project change directory.
+- Rationale: provides a reviewable boundary between discovery, specification, implementation, verification, and archival without bypassing the four-project read-only policy.
+- Owner: project owner
