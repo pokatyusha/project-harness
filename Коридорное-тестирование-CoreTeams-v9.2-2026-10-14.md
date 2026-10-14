@@ -1,4 +1,4 @@
-# Corridor test packet — CoreTeams prototype v9.2
+# Пакет коридорного тестирования — прототип CoreTeams v9.2
 
 ## Purpose and boundary
 
