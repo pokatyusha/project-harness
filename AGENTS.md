@@ -7,6 +7,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 ## First minute
 
 - Durable state: `state.md`, `registry.md`, `decisions.md`, `risks.md`, `metrics.md`, and `tokens.md`.
+- Owner launch guide: `Agent.md`; it explains how to open this repository as the primary local Codex project without duplicating these instructions.
 - Repeatable work: `workflows/`; reusable records: `templates/`.
 - Project-local skills: `.agents/skills/`; load only a skill whose description matches the task.
 - Skill allocation by track: `orchestrator/skill-map.md`; load its narrowest listed skill before the associated procedure.

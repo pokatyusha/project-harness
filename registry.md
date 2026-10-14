@@ -6,7 +6,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 
 | Name | Role | Location | Default branch | Access / status |
 |---|---|---|---|---|
-| project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; GitHub plugin is required for harness-function changes; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-14; no task worktree active; project skills live in `.agents/skills/`. |
+| project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; GitHub plugin is required for harness-function changes; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-14; no task worktree active; project skills live in `.agents/skills/`; owner launch guide: `Agent.md`. |
 | PP-Sber-Autumn-2026 | Main project repository | https://github.com/AcryCxde/PP-Sber-Autumn-2026 | `master` | GitHub plugin verified access on 2026-10-14 (`pull` and `push`); it is required before reading repository facts. PPS checkout is mapped as `project-01` on `PPS-2`; it has local modifications and untracked files, so no source writes are permitted without owner confirmation. |
 
 ## Work trackers and knowledge base
