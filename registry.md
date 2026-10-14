@@ -13,7 +13,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 
 | System | Purpose | Location | Status |
 |---|---|---|---|
-| YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Active authenticated board verified on 2026-10-14: `ПП Сбер - осень` / `Общий backlog и учебные спринты`; plugin is required before planning, task, report, or context work. |
+| YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Active authenticated board verified on 2026-10-14: `ПП Сбер - осень` / `Общий backlog и учебные спринты`; plugin is required before planning, task, report, or context work. Tasks `PPS-180`–`PPS-186` were created on 2026-10-14; the tracker has no distinct next-sprint container. |
 | Obsidian | Durable project knowledge | Not supplied | Awaiting vault path / shared workspace. |
 | Codex video chat | Video and presentation context | `orchestrator/context/video-chat.md` | READY (chat-sourced); local asset paths are deliberately not stored in Git. |
 | Codex PM chat | PM context and Sprint 2 task snapshot | `orchestrator/context/pm-chat.md` | READY (chat-sourced); live tracker reconciliation required. |
