@@ -119,3 +119,11 @@
 - Decision: package the methods from the three newest owner-provided learning decks as narrowly scoped project-local skills: desk research and segmentation/JTBD for Pilot users, and specification readiness for Direction 2.5. Do not copy the decks or treat them as evidence of project facts.
 - Rationale: the methods are reusable and owner-requested, while the decks are learning material rather than a project source of truth.
 - Owner: project owner
+
+## D-016 — Extend skill allocation with evidence, journey, and experiment methods
+
+- Date: 2026-10-14
+- Status: active
+- Decision: add project-local skills for evidence-artifact review, a bounded design-thinking experiment, a journey-to-backlog handoff, and monetisation/unit framing. Allocate them respectively to PM/presentations, Direction 2.5/Pilot users, Direction 2.5/Pilot users, and Direction 2.5/presentations. Reuse the already available Founder skills only for explicitly requested business questions and retain their simulation and input-data limits.
+- Rationale: the owner supplied reusable methods that improve traceability from user evidence to product scope while avoiding a duplicate external skill installation or unsupported product claims.
+- Owner: project owner

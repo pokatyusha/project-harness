@@ -19,7 +19,7 @@ Use to turn a research question into a recruitable segment and a falsifiable nee
 
 1. Start from `templates/pilot-segment-jtbd.md` and name the decision the segment must inform.
 2. Describe the segment with observable context and eligibility criteria; mark every unsupported statement as an assumption.
-3. Use 5W questions to expose the user, circumstance, trigger, alternatives, outcome, and timing.
+3. Use 5W questions to expose the user, circumstance, trigger, alternatives, outcome, and timing. For a B2B case, separate the organisation's business job from the decision-maker's personal job where that distinction matters.
 4. Write one Job Story in the form: “When [situation], I want to [motivation], so I can [expected progress].”
 5. Define interview or prototype-test questions that could disprove the segment or Job Story.
 6. Prepare a candidate-list specification only. Obtain owner confirmation before finding contacts, inviting people, or collecting personal data.
@@ -41,4 +41,4 @@ The project owner approves recruitment scope and outreach separately. Revise whe
 
 ## Source note
 
-Distilled from the owner-provided learning deck `Определение_и_сегментация_ЦА.pdf`; no source deck content is copied into this repository.
+Distilled from the owner-provided learning deck `Определение_и_сегментация_ЦА.pdf` and owner-provided B2B/B2C Job Story examples; no source material is copied into this repository.

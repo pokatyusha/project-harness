@@ -17,6 +17,10 @@ $requiredFiles = @(
     'orchestrator/skill-map.md', 'templates/desk-research.md', 'templates/pilot-segment-jtbd.md',
     'templates/spec-readiness.md', '.agents/skills/pilot-desk-research/SKILL.md',
     '.agents/skills/pilot-segmentation-jtbd/SKILL.md', '.agents/skills/direction-2-5-spec-readiness/SKILL.md',
+    'templates/design-thinking-experiment.md', 'templates/journey-evidence-to-backlog.md',
+    'templates/evidence-artifact-review.md', '.agents/skills/design-thinking-experiment/SKILL.md',
+    '.agents/skills/journey-evidence-to-backlog/SKILL.md', '.agents/skills/evidence-artifact-review/SKILL.md',
+    'templates/monetization-unit-model.md', '.agents/skills/monetization-unit-model/SKILL.md',
     'orchestrator/prompts/collect-project-context.md', 'orchestrator/prompts/resolve-context-files.md',
     '.agents/skills/project-skill-authoring/SKILL.md', '.agents/skills/multi-project-context/SKILL.md'
 )

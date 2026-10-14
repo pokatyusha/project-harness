@@ -28,6 +28,9 @@
 
 When [situation], I want to [motivation], so I can [expected progress].
 
+- Business job (B2B only):
+- Personal job of the decision-maker (B2B only):
+
 ## Validation plan
 
 - Questions that could disprove this segment or Job Story:
