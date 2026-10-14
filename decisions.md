@@ -71,3 +71,35 @@
 - Decision: use the latest owner-specified sequence as the target structure for the next CoreTeams presentation revision; do not infer its exact slide count until confirmed.
 - Rationale: the earlier v3.2 deck was reportedly delivered before a later, stricter sequence was supplied.
 - Owner: project owner
+
+## D-010 — Sprint 2 is governed by one evidence-backed E2E path
+
+- Date: 2026-10-14
+- Status: active
+- Decision: prioritise one CoreTeams path from web through gateway, runner/CTF, storage, and back to web over expansion of isolated features; if it is incomplete, report the actual blocker and next step at defence.
+- Rationale: the supplied PM context identifies the full user path, not disconnected prototypes, as the Sprint 2 outcome.
+- Owner: project owner
+
+## D-011 — Mainline delivery uses reviewed squash merges
+
+- Date: 2026-10-14
+- Status: active
+- Decision: keep `master` as the main branch and merge work through feature branch → PR → review → squash.
+- Rationale: supplied PM context records this as the agreed collaboration workflow.
+- Owner: project owner
+
+## D-012 — Sprint 2 runtime boundaries
+
+- Date: 2026-10-14
+- Status: active
+- Decision: treat React as the target working UI, do not use the runner container as permanent user storage, use VPS/IP for the initial test contour, and defer Open WebUI own/hybrid research beyond the current E2E milestone.
+- Rationale: retains the operational boundaries needed to complete and honestly demonstrate the first integration path.
+- Owner: project owner
+
+## D-013 — PM ownership and durable records
+
+- Date: 2026-10-14
+- Status: active
+- Decision: assign each executable task one primary owner, record shared work as a dependency, and keep project context and markdown decisions in Wiki/Git.
+- Rationale: enables an auditable plan/fact view without dispersing authoritative information across chat messages.
+- Owner: project owner

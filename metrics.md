@@ -2,7 +2,7 @@
 
 | Track | Metric | Baseline | Target | Current | Source | Update cadence |
 |---|---|---|---|---|---|---|
-| PM | Milestones with named owner and acceptance criteria | TBD | TBD | TBD | YouGile / state | Weekly |
+| PM | Milestones with named owner and acceptance criteria | TBD | One verified E2E path with plan/fact evidence | 15-item Sprint 2 snapshot captured; live status UNKNOWN | PM chat context / YouGile | Weekly |
 | Direction 2.5 | Accepted specifications and research findings | TBD | TBD | TBD | Repository / research notes | Weekly |
 | Video | Approved scenario and production-ready assets | TBD | TBD | 75-second and 30-second versions reported; 30-second acceptance UNKNOWN | Video chat context | Weekly |
 | Presentations | Slides ready against defence rubric | TBD | TBD | v3.2 reported; owner-defined structure pending source map | Video chat context | Weekly |

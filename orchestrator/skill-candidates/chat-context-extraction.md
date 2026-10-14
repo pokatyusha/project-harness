@@ -2,9 +2,9 @@
 
 - Candidate name: chat-context-extraction
 - Owner: project owner
-- Status: first use
-- Evidence links: `orchestrator/context/video-chat.md`
-- Revision trigger: second chat-context capture or a change to the required context-card format
+- Status: second use
+- Evidence links: `orchestrator/context/video-chat.md`; `orchestrator/context/pm-chat.md`
+- Revision trigger: third chat-context capture or a change to the required context-card format
 
 ## Trigger
 

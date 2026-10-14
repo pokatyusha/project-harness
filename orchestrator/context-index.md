@@ -14,3 +14,4 @@ Updated: 2026-10-14 (Europe/Moscow)
 | Source ID | Track | Context card | Freshness | Status |
 |---|---|---|---|---|
 | video-chat | Video / Presentations | `orchestrator/context/video-chat.md` | 2026-10-14 | READY (chat-sourced) |
+| pm-chat | PM | `orchestrator/context/pm-chat.md` | 2026-10-14 | READY (chat-sourced; tracker reconciliation required) |

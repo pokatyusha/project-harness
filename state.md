@@ -10,7 +10,7 @@ Create the shared operating baseline: confirm scope, owners, and source location
 
 | Track | Status | Nearest action | Plan / fact |
 |---|---|---|---|
-| PM | Setup | Confirm team, milestones, and reporting cadence | Plan: baseline. Fact: no team inputs recorded yet. |
+| PM | Context captured | Reconcile the Sprint 2 tracker snapshot as `done / in progress / blocked` | Plan: one E2E scenario and defence evidence. Fact: 15 task statuses, owners, and next actions are captured from chat but require live tracker verification. |
 | Direction 2.5 — CoreTeams Product Web | Baseline mapped | Confirm product priority and acceptance criteria against the specification package | Plan: map specifications, criteria, research. Fact: PPS context card is READY; current React runtime is a local simulation, not CTF/gateway/production integration. |
 | Video — CTF | Context captured | Confirm acceptance of the 30-second cut and whether it consumes a revision round | Plan: scenario → prompts → assembly. Fact: horizontal 3D/no-music brief and 75/30-second reported versions are recorded; 30-second acceptance is UNKNOWN. |
 | Presentations | Structure pending | Build the 16-section source map from the supplied briefs and transcripts | Plan: outline and texts. Fact: v3.2 was reportedly delivered; the later owner structure has priority, but exact slide count and source evidence are UNKNOWN. |
@@ -18,11 +18,12 @@ Create the shared operating baseline: confirm scope, owners, and source location
 
 ## Blockers
 
-- YouGile tracker must be available to its connector before epics can be created and linked.
+- YouGile common backlog is reported as created, but the connector has no active authenticated tab to reconcile live statuses or create missing epics.
 - Obsidian vault path and ownership map have not yet been supplied.
 - PPS working tree contains local modifications and untracked files; source work is blocked pending confirmation of the canonical state and an explicit owner request.
 - Video: acceptance of the 30-second cut and its effect on the three revision rounds are unconfirmed.
 - Presentations: the requested section sequence has ambiguous numbering and the referenced briefs/transcripts have not yet been reviewed.
+- PM: E2E readiness, task statuses, and the Integration Owner are not verified against the tracker or current branches.
 
 ## Harness maturity
 
@@ -55,3 +56,4 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: mapped PPS — ПП Сбер — осень as `project-01` for Direction 2.5 at branch `PPS-2`; source context collection is pending.
 - 2026-10-14: collected the first read-only PPS context card; the current React prototype is confirmed as a local simulation, while production integration requirements remain unconfirmed.
 - 2026-10-14: stored a chat-sourced Video/Presentations context card; no media, presentation, or external project was changed.
+- 2026-10-14: stored a chat-sourced PM context card with the Sprint 2 E2E target and task snapshot; no tracker, branch, or external team member was changed.
