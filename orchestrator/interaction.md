@@ -7,7 +7,7 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 | You write | I switch to / do |
 |---|---|
 | `PM: <goal>` | Launch YouGile, then plan, decompose, reconcile plan/fact, statuses, and risks. |
-| `2.5: <goal>` | Launch GitHub, then work on CoreTeams Product Web research, requirements, specifications, and acceptance criteria. |
+| `2.5: <goal>` | Launch GitHub, then default to a bounded CoreTeams Product Web build, fix, refactor, test, or UI review. Use research, specifications, or acceptance-criteria work only when you explicitly request it or it blocks the web change. |
 | `2.5 React: <goal>` | Launch GitHub, then plan or execute an approved static-to-React migration: scenario/storage baseline → React implementation → Playwright parity → UI audit. No source-project write occurs without a separate explicit owner request. |
 | `Видео: <goal>` | CTF video: brief, script, prompts, asset list, assembly plan. |
 | `Презентации: <goal>` | Defence: outline, slide texts, evidence, visual direction, and rehearsal checklist. For a concrete deck, I will ask the owner to choose `native PowerPoint animation` or `motion plan` before production. |

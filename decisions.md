@@ -159,3 +159,11 @@
 - Decision: treat `CoreTeams-по-структуре-2026-10-02-v10.pptx` as the canonical latest defence. In every sprint, check at least one product hypothesis with users and retain the hypothesis, method, consent boundary, support/disconfirm rule, result or `NOT_RUN`, and resulting product decision.
 - Rationale: the owner confirmed the latest deck and requires recurring user validation. A planned, imagined, or unrun check is not evidence that a product hypothesis was validated.
 - Owner: project owner
+
+## D-021 — Direction 2.5 defaults to CoreTeams web delivery
+
+- Date: 2026-10-15
+- Status: active
+- Decision: make a bounded CoreTeams Product Web build, bug fix, refactor, test, or UI review the default outcome of `2.5:`. Product research, specification, monetisation, and OpenSpec work are used only on the owner's explicit request or when a documented uncertainty blocks the web change.
+- Rationale: the owner needs this module to concentrate on web development and edits without turning every request into broad product discovery.
+- Owner: project owner
