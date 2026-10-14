@@ -18,7 +18,7 @@ Create the shared operating baseline: confirm scope, owners, and source location
 
 ## Blockers
 
-- YouGile common backlog is reported as created, but the connector has no active authenticated tab to reconcile live statuses or create missing epics.
+- YouGile is connected to the common backlog; live Sprint 2 task reconciliation has not yet been run.
 - Obsidian vault path and ownership map have not yet been supplied.
 - PPS working tree contains local modifications and untracked files; source work is blocked pending confirmation of the canonical state and an explicit owner request.
 - Video: acceptance of the 30-second cut and its effect on the three revision rounds are unconfirmed.
@@ -57,3 +57,4 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: collected the first read-only PPS context card; the current React prototype is confirmed as a local simulation, while production integration requirements remain unconfirmed.
 - 2026-10-14: stored a chat-sourced Video/Presentations context card; no media, presentation, or external project was changed.
 - 2026-10-14: stored a chat-sourced PM context card with the Sprint 2 E2E target and task snapshot; no tracker, branch, or external team member was changed.
+- 2026-10-14: verified the active YouGile board and CoreTeams GitHub repository through their plugins; made plugin routing mandatory for planning/context and repository work.

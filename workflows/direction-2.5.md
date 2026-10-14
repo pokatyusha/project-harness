@@ -10,10 +10,11 @@ Product repository, stakeholder brief, existing requirements, and research evide
 
 ## Procedure
 
-1. Inspect the relevant repository files before proposing a specification.
-2. Capture problem, users, constraints, scope, and acceptance criteria.
-3. Link each claim to a source or label it an assumption.
-4. Record product decisions and risks in the root files.
+1. Launch the GitHub plugin and inspect the relevant CoreTeams repository, branch, PR, commit, or file before proposing a specification.
+2. Inspect the smallest relevant repository files; use the mapped local folder read-only through `multi-project-context` when needed.
+3. Capture problem, users, constraints, scope, and acceptance criteria.
+4. Link each claim to a source or label it an assumption.
+5. Record product decisions and risks in the root files.
 
 ## Done
 

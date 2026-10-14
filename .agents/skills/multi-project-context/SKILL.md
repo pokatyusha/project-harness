@@ -18,10 +18,11 @@ Use when the orchestrator needs current facts, a file retrieval plan, or a conte
 ## Procedure
 
 1. Read the selected project block. If `root` is empty or `status` is not `ready`, stop and report `MAPPING_REQUIRED`.
-2. Use `orchestrator/prompts/collect-project-context.md` for an initial context card or `orchestrator/prompts/resolve-context-files.md` for a targeted retrieval plan.
-3. Read the project’s rules and context files before any other files. Start from the common paths in `projects.toml`; open code only when it is necessary to answer the stated question.
-4. Save the resulting context card only under the configured `context_file` in this harness. Include source paths, retrieval time, and uncertainty.
-5. Update `orchestrator/context-index.md` with freshness and status. Record cross-project decisions or risks in the root logs.
+2. Launch the GitHub plugin and inspect the configured repository before accessing its local source folder. Read only the repository, branch, PR, commit, or file needed for the question; record unavailable GitHub facts as `UNKNOWN`.
+3. Use `orchestrator/prompts/collect-project-context.md` for an initial context card or `orchestrator/prompts/resolve-context-files.md` for a targeted retrieval plan.
+4. Read the project’s rules and context files before any other files. Start from the common paths in `projects.toml`; open code only when it is necessary to answer the stated question.
+5. Save the resulting context card only under the configured `context_file` in this harness. Include source paths, retrieval time, GitHub evidence, and uncertainty.
+6. Update `orchestrator/context-index.md` with freshness and status. Record cross-project decisions or risks in the root logs.
 
 ## Boundaries
 

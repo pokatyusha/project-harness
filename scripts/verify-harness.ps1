@@ -13,7 +13,7 @@ $requiredFiles = @(
     'workflows/pilot-users.md', 'workflows/worktree.md', 'templates/parallel-task.md',
     'templates/skill-canvas.md', 'templates/project-context-card.md',
     'orchestrator/projects.toml', 'orchestrator/context-index.md',
-    'orchestrator/interaction.md', 'openspec/config.yaml',
+    'orchestrator/interaction.md', 'orchestrator/plugin-routing.md', 'openspec/config.yaml',
     'orchestrator/prompts/collect-project-context.md', 'orchestrator/prompts/resolve-context-files.md',
     '.agents/skills/project-skill-authoring/SKILL.md', '.agents/skills/multi-project-context/SKILL.md'
 )

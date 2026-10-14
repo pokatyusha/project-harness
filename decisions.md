@@ -103,3 +103,11 @@
 - Decision: assign each executable task one primary owner, record shared work as a dependency, and keep project context and markdown decisions in Wiki/Git.
 - Rationale: enables an auditable plan/fact view without dispersing authoritative information across chat messages.
 - Owner: project owner
+
+## D-014 — Mandatory YouGile and GitHub plugin routing
+
+- Date: 2026-10-14
+- Status: active
+- Decision: launch YouGile before planning, task, report, or project-context work; launch GitHub before accessing repository facts or the CoreTeams source repository; record every verified change to agent behaviour in `project-harness`.
+- Rationale: makes live tracker and repository evidence the starting point for agent work while keeping durable operating rules versioned in the harness.
+- Owner: project owner

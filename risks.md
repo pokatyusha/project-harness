@@ -2,7 +2,7 @@
 
 | ID | Risk | Impact | Status | Mitigation / next action |
 |---|---|---|---|---|
-| R-001 | YouGile common backlog is reported as created, but the connector has no active authenticated tab | Live task status cannot be reconciled and missing epics cannot be created or linked | Open | Owner opens and keeps the supplied tracker tab logged in; reconcile Sprint 2 statuses before changing scope. |
+| R-001 | YouGile is connected but the live Sprint 2 task state has not yet been reconciled | PM reports could retain stale chat-status data | Open | Use the YouGile plugin to reconcile Sprint 2 statuses before changing scope or reporting plan/fact. |
 | R-002 | Obsidian vault location is unknown | Knowledge base cannot be reconciled | Open | Owner supplies vault path or shared workspace. |
 | R-003 | Track briefs, owners, and success criteria are not yet recorded | Weekly plan cannot be committed as plan/fact | Open | Confirm inputs during baseline review. |
 | R-004 | Verification is local only | Repository quality controls are not enforced remotely | Open | Reassess a CI check after the workflow stabilizes or the first recurring verification failure. |

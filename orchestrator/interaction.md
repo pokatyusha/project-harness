@@ -6,8 +6,8 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 
 | You write | I switch to / do |
 |---|---|
-| `PM: <goal>` | Plan, decomposition, plan/fact, statuses, risks, and YouGile preparation. |
-| `2.5: <goal>` | CoreTeams Product Web: research, requirements, specifications, acceptance criteria. |
+| `PM: <goal>` | Launch YouGile, then plan, decompose, reconcile plan/fact, statuses, and risks. |
+| `2.5: <goal>` | Launch GitHub, then work on CoreTeams Product Web research, requirements, specifications, and acceptance criteria. |
 | `Видео: <goal>` | CTF video: brief, script, prompts, asset list, assembly plan. |
 | `Презентации: <goal>` | Defence: outline, slide texts, evidence and rehearsal checklist. |
 | `Пилоты: <goal>` | Pilot users: research plan, interview guide, outreach drafts, synthesis. |
@@ -19,7 +19,7 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 |---|---|
 | `Статус` | Current short status across the five tracks, blockers, and next actions. |
 | `Неделя` | Draft or update the weekly plan from `templates/weekly-plan.md`. |
-| `Контекст project-0N: <question>` | Read-only retrieval of the smallest relevant context after that project's root is mapped and marked ready. |
+| `Контекст project-0N: <question>` | Launch GitHub, then retrieve the smallest relevant read-only context after that project's root is mapped and marked ready. |
 | `Забор файлов project-0N: <goal>` | Show the exact planned files and paths before collecting a context card. |
 | `Решение: <statement>` | Record a confirmed decision in `decisions.md`; I will ask only if its scope is materially unclear. |
 | `Риск: <statement>` | Add or update a risk in `risks.md`. |

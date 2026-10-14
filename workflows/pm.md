@@ -10,11 +10,14 @@ Team roster, milestones, decisions, YouGile task state, and repository changes.
 
 ## Procedure
 
-1. Read the relevant track block in `state.md`.
-2. Reconcile task status with YouGile.
-3. Add decisions and risks when they appear.
-4. Update only affected plan/fact blocks.
-5. Before assigning parallel work, apply the readiness gate in `workflows/worktree.md`.
+1. Launch the YouGile plugin and read the relevant board, task, or status data.
+2. Read the relevant track block in `state.md`.
+3. Reconcile task status with YouGile; label data from chat or an unavailable tracker `STALE` or `UNKNOWN`.
+4. Add decisions and risks when they appear.
+5. Update only affected plan/fact blocks.
+6. Before assigning parallel work, apply the readiness gate in `workflows/worktree.md`.
+
+Before mutating YouGile, obtain confirmation of the exact tasks and fields. See `orchestrator/plugin-routing.md`.
 
 ## Done
 

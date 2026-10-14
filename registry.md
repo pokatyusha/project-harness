@@ -6,14 +6,14 @@ Updated: 2026-10-14 (Europe/Moscow)
 
 | Name | Role | Location | Default branch | Access / status |
 |---|---|---|---|---|
-| project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-14; no task worktree active; project skills live in `.agents/skills/`. |
-| PP-Sber-Autumn-2026 | Main project repository | https://github.com/AcryCxde/PP-Sber-Autumn-2026 | `master` | GitHub connector verified push access on 2026-10-13. PPS checkout is mapped as `project-01` on `PPS-2`; it has local modifications and untracked files, so no source writes are permitted without owner confirmation. |
+| project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; GitHub plugin is required for harness-function changes; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-14; no task worktree active; project skills live in `.agents/skills/`. |
+| PP-Sber-Autumn-2026 | Main project repository | https://github.com/AcryCxde/PP-Sber-Autumn-2026 | `master` | GitHub plugin verified access on 2026-10-14 (`pull` and `push`); it is required before reading repository facts. PPS checkout is mapped as `project-01` on `PPS-2`; it has local modifications and untracked files, so no source writes are permitted without owner confirmation. |
 
 ## Work trackers and knowledge base
 
 | System | Purpose | Location | Status |
 |---|---|---|---|
-| YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Supplied by owner; connector awaits an active authenticated YouGile tab. |
+| YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Active authenticated board verified on 2026-10-14: `ПП Сбер - осень` / `Общий backlog и учебные спринты`; plugin is required before planning, task, report, or context work. |
 | Obsidian | Durable project knowledge | Not supplied | Awaiting vault path / shared workspace. |
 | Codex video chat | Video and presentation context | `orchestrator/context/video-chat.md` | READY (chat-sourced); local asset paths are deliberately not stored in Git. |
 | Codex PM chat | PM context and Sprint 2 task snapshot | `orchestrator/context/pm-chat.md` | READY (chat-sourced); live tracker reconciliation required. |

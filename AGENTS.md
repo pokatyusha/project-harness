@@ -10,6 +10,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Repeatable work: `workflows/`; reusable records: `templates/`.
 - Project-local skills: `.agents/skills/`; load only a skill whose description matches the task.
 - Multi-project configuration and retrieval prompts: `orchestrator/`.
+- Required YouGile and GitHub plugin routing: `orchestrator/plugin-routing.md`.
 - Change specifications: `openspec/`; use the target phrases in `orchestrator/interaction.md`.
 - Read the relevant state block and one workflow before acting.
 - Verify a completed change with the commands below, then record the fact, decision, or risk.
@@ -25,6 +26,8 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Make targeted edits: a line or a block, never a whole-document rewrite without a reason.
 - Record every decision in `decisions.md`, every risk in `risks.md`, and plan/fact in `state.md`.
 - Sync task status with YouGile and code/PR status with GitHub.
+- Launch YouGile before planning, task, report, or project-context work; launch GitHub before repository or branch access. Follow `orchestrator/plugin-routing.md` for the permitted read/write sequence.
+- Commit every verified agent-function change to `project-harness` and synchronize it to `main`; obtain owner permission before publishing chat-derived or other non-public project context.
 - Do not send emails, invitations, publish content, or contact people without owner confirmation.
 - Keep command output to errors and the useful tail.
 - At session end, update `state.md` and `registry.md`.
@@ -34,7 +37,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Keep secrets, passwords, API keys, and participant identifiers out of the repository.
 - Parallel work requires a separate branch and worktree only after the task passes the readiness gate in `workflows/worktree.md`.
 - Keep parallel tasks small; record their Definition of Done, checks, merge owner, and cleanup condition before starting.
-- Retrieve context from project folders only through `.agents/skills/multi-project-context/SKILL.md` and only after their configured root paths are filled.
+- Retrieve context from project folders only through `.agents/skills/multi-project-context/SKILL.md`, after its required GitHub check and only after configured root paths are filled.
 - Use OpenSpec for durable changes to the harness or a mapped product project: explore/propose before implementation, then apply, verify, and archive as separate owner requests.
 
 ## Commands
