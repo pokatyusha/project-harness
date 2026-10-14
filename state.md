@@ -13,7 +13,7 @@ Create the shared operating baseline: confirm scope, owners, and source location
 | PM | Context captured | Reconcile the Sprint 2 tracker snapshot as `done / in progress / blocked` | Plan: one E2E scenario and defence evidence. Fact: 15 task statuses, owners, and next actions are captured from chat but require live tracker verification; an evidence-review skill is available before sharing a report. |
 | Direction 2.5 — CoreTeams Product Web | Discovery methods ready | Frame the next uncertain user path, concept, or business-model claim before its durable change proposal | Plan: map specifications, criteria, research. Fact: PPS context card is READY; current React runtime is a local simulation, not CTF/gateway/production integration; design-thinking, journey-to-backlog, monetisation-unit, and specification-readiness skills are available. |
 | Video — CTF | Context captured | Confirm acceptance of the 30-second cut and whether it consumes a revision round | Plan: scenario → prompts → assembly. Fact: horizontal 3D/no-music brief and 75/30-second reported versions are recorded; 30-second acceptance is UNKNOWN. |
-| Presentations | Structure pending | Build the 16-section source map from the supplied briefs and transcripts | Plan: outline and texts. Fact: v3.2 was reportedly delivered; the later owner structure has priority, but exact slide count and source evidence are UNKNOWN; monetisation framing and evidence-review skills are available before delivery. |
+| Presentations | Design system ready | Build the 16-section source map from the supplied briefs and transcripts | Plan: outline → design/motion brief → texts → evidence review. Fact: v3.2 was reportedly delivered; the later owner structure has priority, but exact slide count and source evidence are UNKNOWN; visual/motion, monetisation framing, and evidence-review skills are available before delivery. |
 | Pilot users | Methods ready | Confirm research objective, target group, and consent process | Plan: desk research → segment/Job Story → journey or concept test → candidate list → outreach draft → interviews → findings. Fact: desk research, segmentation/JTBD, design-thinking, and journey-to-backlog skills are available; no contacts or research brief is recorded. |
 
 ## Blockers
@@ -35,7 +35,7 @@ No task worktrees are active. A worktree is permitted only for a task that passe
 
 ## Project-local skills
 
-The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. Seven owner-requested, source-derived skills support PM, Direction 2.5, presentations, and pilot research; their allocation and the scoped Founder methods are in `orchestrator/skill-map.md`.
+The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. Eight owner-requested, source-derived skills support PM, Direction 2.5, presentations, and pilot research; their allocation and the scoped Founder methods are in `orchestrator/skill-map.md`.
 
 ## Multi-project orchestrator
 
@@ -60,3 +60,4 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: verified the active YouGile board and CoreTeams GitHub repository through their plugins; made plugin routing mandatory for planning/context and repository work.
 - 2026-10-14: reviewed the three newest owner-provided learning decks and distilled their methods into two pilot-user skills and one Direction 2.5 specification-readiness skill; no source deck or local source path was copied into Git.
 - 2026-10-14: reviewed owner-provided HTML learning materials and Job Story examples; added design experiment, journey-to-backlog, monetisation-unit, and evidence-artifact-review skills, expanded B2B segmentation, and mapped the already-available Founder skills with explicit simulation and financial-evidence boundaries.
+- 2026-10-14: added a presentation visual-design and motion skill using the owner-provided dark token system as an inspiration-only adaptation; it includes an accessible slide scale and an honest native-motion handoff boundary.

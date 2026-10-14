@@ -127,3 +127,11 @@
 - Decision: add project-local skills for evidence-artifact review, a bounded design-thinking experiment, a journey-to-backlog handoff, and monetisation/unit framing. Allocate them respectively to PM/presentations, Direction 2.5/Pilot users, Direction 2.5/Pilot users, and Direction 2.5/presentations. Reuse the already available Founder skills only for explicitly requested business questions and retain their simulation and input-data limits.
 - Rationale: the owner supplied reusable methods that improve traceability from user evidence to product scope while avoiding a duplicate external skill installation or unsupported product claims.
 - Owner: project owner
+
+## D-017 — Presentation design uses an adapted dark token system
+
+- Date: 2026-10-14
+- Status: active
+- Decision: use `presentation-visual-motion` for new defence-slide visual direction and motion planning. It adapts the owner-provided dark token system for projector-readable slides, keeps evidence editable, and treats the linked style reference as inspiration rather than a template or asset source.
+- Rationale: establishes consistent visual hierarchy and purposeful animation without copying a third-party site or compromising readability.
+- Owner: project owner
