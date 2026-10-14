@@ -14,6 +14,9 @@ $requiredFiles = @(
     'templates/skill-canvas.md', 'templates/project-context-card.md',
     'orchestrator/projects.toml', 'orchestrator/context-index.md',
     'orchestrator/interaction.md', 'orchestrator/plugin-routing.md', 'openspec/config.yaml',
+    'orchestrator/skill-map.md', 'templates/desk-research.md', 'templates/pilot-segment-jtbd.md',
+    'templates/spec-readiness.md', '.agents/skills/pilot-desk-research/SKILL.md',
+    '.agents/skills/pilot-segmentation-jtbd/SKILL.md', '.agents/skills/direction-2-5-spec-readiness/SKILL.md',
     'orchestrator/prompts/collect-project-context.md', 'orchestrator/prompts/resolve-context-files.md',
     '.agents/skills/project-skill-authoring/SKILL.md', '.agents/skills/multi-project-context/SKILL.md'
 )

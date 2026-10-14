@@ -17,6 +17,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 | Obsidian | Durable project knowledge | Not supplied | Awaiting vault path / shared workspace. |
 | Codex video chat | Video and presentation context | `orchestrator/context/video-chat.md` | READY (chat-sourced); local asset paths are deliberately not stored in Git. |
 | Codex PM chat | PM context and Sprint 2 task snapshot | `orchestrator/context/pm-chat.md` | READY (chat-sourced); live tracker reconciliation required. |
+| Local learning decks | Source-derived methods for Pilot users and Direction 2.5 | `orchestrator/skill-map.md` | Three newest owner-provided PDF decks were reviewed on 2026-10-14; methods were distilled without copying source files or their local location. |
 
 ## Multi-project orchestration
 

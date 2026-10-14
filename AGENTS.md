@@ -9,6 +9,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Durable state: `state.md`, `registry.md`, `decisions.md`, `risks.md`, `metrics.md`, and `tokens.md`.
 - Repeatable work: `workflows/`; reusable records: `templates/`.
 - Project-local skills: `.agents/skills/`; load only a skill whose description matches the task.
+- Skill allocation by track: `orchestrator/skill-map.md`; load its narrowest listed skill before the associated procedure.
 - Multi-project configuration and retrieval prompts: `orchestrator/`.
 - Required YouGile and GitHub plugin routing: `orchestrator/plugin-routing.md`.
 - Change specifications: `openspec/`; use the target phrases in `orchestrator/interaction.md`.

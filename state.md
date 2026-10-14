@@ -11,10 +11,10 @@ Create the shared operating baseline: confirm scope, owners, and source location
 | Track | Status | Nearest action | Plan / fact |
 |---|---|---|---|
 | PM | Context captured | Reconcile the Sprint 2 tracker snapshot as `done / in progress / blocked` | Plan: one E2E scenario and defence evidence. Fact: 15 task statuses, owners, and next actions are captured from chat but require live tracker verification. |
-| Direction 2.5 — CoreTeams Product Web | Baseline mapped | Confirm product priority and acceptance criteria against the specification package | Plan: map specifications, criteria, research. Fact: PPS context card is READY; current React runtime is a local simulation, not CTF/gateway/production integration. |
+| Direction 2.5 — CoreTeams Product Web | Baseline mapped | Use specification readiness before the next durable change proposal | Plan: map specifications, criteria, research. Fact: PPS context card is READY; current React runtime is a local simulation, not CTF/gateway/production integration; a source-derived readiness skill is available. |
 | Video — CTF | Context captured | Confirm acceptance of the 30-second cut and whether it consumes a revision round | Plan: scenario → prompts → assembly. Fact: horizontal 3D/no-music brief and 75/30-second reported versions are recorded; 30-second acceptance is UNKNOWN. |
 | Presentations | Structure pending | Build the 16-section source map from the supplied briefs and transcripts | Plan: outline and texts. Fact: v3.2 was reportedly delivered; the later owner structure has priority, but exact slide count and source evidence are UNKNOWN. |
-| Pilot users | Setup | Confirm research objective, target group, and consent process | Plan: list → outreach draft → interviews → findings. Fact: no contacts or research brief recorded. |
+| Pilot users | Methods ready | Confirm research objective, target group, and consent process | Plan: desk research → segment/Job Story → candidate list → outreach draft → interviews → findings. Fact: source-derived desk-research and segmentation/JTBD skills are available; no contacts or research brief is recorded. |
 
 ## Blockers
 
@@ -35,7 +35,7 @@ No task worktrees are active. A worktree is permitted only for a task that passe
 
 ## Project-local skills
 
-The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. No speculative operational skills have been created.
+The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. Three owner-requested, source-derived skills support pilot research and Direction 2.5 readiness; their allocation is in `orchestrator/skill-map.md`.
 
 ## Multi-project orchestrator
 
@@ -58,3 +58,4 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: stored a chat-sourced Video/Presentations context card; no media, presentation, or external project was changed.
 - 2026-10-14: stored a chat-sourced PM context card with the Sprint 2 E2E target and task snapshot; no tracker, branch, or external team member was changed.
 - 2026-10-14: verified the active YouGile board and CoreTeams GitHub repository through their plugins; made plugin routing mandatory for planning/context and repository work.
+- 2026-10-14: reviewed the three newest owner-provided learning decks and distilled their methods into two pilot-user skills and one Direction 2.5 specification-readiness skill; no source deck or local source path was copied into Git.

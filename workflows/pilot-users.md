@@ -11,10 +11,12 @@ Research objective, target segments, consent requirements, interview guide, and 
 ## Procedure
 
 1. Confirm research goal, criteria, and consent process.
-2. Build a candidate list without contacting anyone.
-3. Draft outreach and interview guide.
-4. Obtain owner confirmation before sending messages or invitations.
-5. Store interview notes using the template and synthesize only consented evidence.
+2. If existing evidence is needed, use `pilot-desk-research` and store the bounded brief with its limitations.
+3. Define an evidence-backed segment and Job Story through `pilot-segmentation-jtbd` before creating a candidate-list specification.
+4. Build a candidate list without contacting anyone.
+5. Draft outreach and interview guide.
+6. Obtain owner confirmation before sending messages or invitations.
+7. Store interview notes using the template and synthesize only consented evidence.
 
 ## Done
 

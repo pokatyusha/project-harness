@@ -111,3 +111,11 @@
 - Decision: launch YouGile before planning, task, report, or project-context work; launch GitHub before accessing repository facts or the CoreTeams source repository; record every verified change to agent behaviour in `project-harness`.
 - Rationale: makes live tracker and repository evidence the starting point for agent work while keeping durable operating rules versioned in the harness.
 - Owner: project owner
+
+## D-015 — Allocate source-derived methods by delivery track
+
+- Date: 2026-10-14
+- Status: active
+- Decision: package the methods from the three newest owner-provided learning decks as narrowly scoped project-local skills: desk research and segmentation/JTBD for Pilot users, and specification readiness for Direction 2.5. Do not copy the decks or treat them as evidence of project facts.
+- Rationale: the methods are reusable and owner-requested, while the decks are learning material rather than a project source of truth.
+- Owner: project owner
