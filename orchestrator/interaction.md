@@ -12,6 +12,7 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 | `Видео: <goal>` | CTF video: brief, script, prompts, asset list, assembly plan. |
 | `Презентации: <goal>` | Defence: outline, slide texts, evidence, visual direction, and rehearsal checklist. For a concrete deck, I will ask the owner to choose `native PowerPoint animation` or `motion plan` before production. |
 | `Пилоты: <goal>` | Pilot users: research plan, interview guide, outreach drafts, synthesis. |
+| `Пилоты: гипотеза спринта <hypothesis>` | Create or update the sprint hypothesis-check record: user, method, consent boundary, support/disconfirm rule, fact, and next decision. |
 | `Оркестратор: <goal>` | A question spanning two or more tracks or one of the four mapped project folders. |
 
 ## Fast operational phrases

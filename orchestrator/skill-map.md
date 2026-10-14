@@ -6,7 +6,7 @@
 | Direction 2.5 — CoreTeams Product Web | `design-thinking-experiment`, `journey-evidence-to-backlog`, `monetization-unit-model`, `direction-2-5-spec-readiness`, `multi-project-context`, OpenSpec skills; personal `react-best-practices`, `composition-patterns`, `web-design-guidelines`, `playwright-skill` | `workflows/direction-2.5.md`, GitHub, YouGile | Explore evidence before scope; frame any business model without invented numbers; use readiness before OpenSpec. For static-to-React, protect scenario/storage parity first, add components under React best practices, test in Playwright, then audit UI. `react-doctor` is deferred until Node/npm are available. Source-project edits need separate authorization. |
 | Video — CTF | No source-derived skill yet | `workflows/video.md` | Retain the agreed brief and seek approval before rendering or publishing. |
 | Presentations | `presentation-visual-motion`, `monetization-unit-model`, `evidence-artifact-review` | `workflows/presentations.md`, `knowledge-cat-ppt-skill`, Presentations capability | Build only from reviewed source evidence and the approved defence structure; choose native PowerPoint animation or a motion plan before production; use the dark token system as inspiration, never as a copied site design. |
-| Pilot users | `pilot-desk-research`, `pilot-segmentation-jtbd`, `design-thinking-experiment`, `journey-evidence-to-backlog` | `workflows/pilot-users.md` | Use methods before candidate outreach; contacts and invitations require owner confirmation. |
+| Pilot users | `pilot-desk-research`, `pilot-segmentation-jtbd`, `pilot-barrier-discovery`, `design-thinking-experiment`, `pilot-evidence-synthesis`, `journey-evidence-to-backlog` | `workflows/pilot-users.md`, `templates/pilot-sprint-hypothesis-check.md` | In every sprint, test at least one product hypothesis with users and record its result or `NOT_RUN`. Separate real past interaction from counterfactual expectation; contacts and invitations require owner confirmation. |
 | Cross-project context | `multi-project-context` | `orchestrator/` retrieval prompts | Read mapped source folders only after the GitHub check and only as configured. |
 
 ## Source-derived skill record
@@ -16,6 +16,8 @@ Owner-provided learning materials were reviewed on 2026-10-14. Their methods wer
 The owner-provided presentation visual reference and token set are retained only as a compact design adaptation in `presentation-visual-motion`; no third-party brand assets or layouts are copied.
 
 `knowledge-cat-ppt-skill` is installed in the owner's personal Codex skills. It selects the production lane and QA workflow; `presentation-visual-motion` remains the project-specific design and animation layer.
+
+The owner-approved aggregate pilot-research synthesis is in `orchestrator/context/pilot-research-2026-10-14.md`. It records the canonical v10 defence, survey limitations, and customer-method boundary without raw participant data, contacts, or source-file locations.
 
 ## Founder-skill allocation
 

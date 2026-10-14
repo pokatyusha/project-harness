@@ -30,6 +30,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Launch YouGile before planning, task, report, or project-context work; launch GitHub before repository or branch access. Follow `orchestrator/plugin-routing.md` for the permitted read/write sequence.
 - Commit every verified agent-function change to `project-harness` and synchronize it to `main`; obtain owner permission before publishing chat-derived or other non-public project context.
 - Do not send emails, invitations, publish content, or contact people without owner confirmation.
+- In every sprint, check at least one product hypothesis with users. Record the hypothesis, method, consent boundary, decision rule, result or `NOT_RUN`, and resulting decision; never replace a missing user check with an inferred conclusion.
 - Keep command output to errors and the useful tail.
 - At session end, update `state.md` and `registry.md`.
 - Before reporting a change as complete, run `git diff --check` and `scripts/verify-harness.ps1`.

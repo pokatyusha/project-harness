@@ -13,8 +13,8 @@ Create the shared operating baseline: confirm scope, owners, and source location
 | PM | Context captured | Reconcile the Sprint 2 tracker snapshot as `done / in progress / blocked` | Plan: one E2E scenario and defence evidence. Fact: 15 task statuses, owners, and next actions are captured from chat but require live tracker verification; an evidence-review skill is available before sharing a report. |
 | Direction 2.5 — CoreTeams Product Web | React-migration tooling mapped | Capture a v9 scenario and `localStorage` baseline before proposing the first React slice | Plan: preserve parity, then migrate an approved path incrementally with React, Playwright, and a final UI audit. Fact: PPS context card is READY; the current v9 client is standalone HTML/CSS/JS with local browser storage and separate demo API contours. Personal React best-practice, composition, UI-audit, and Playwright skills were installed on 2026-10-14; this runtime lacks `npx`, so React Doctor and Playwright setup are not yet execution-ready. Tracker task `PPS-185` is in the Epic 2.5 backlog. |
 | Video — CTF | Context captured | Confirm acceptance of the 30-second cut and whether it consumes a revision round | Plan: scenario → prompts → assembly. Fact: horizontal 3D/no-music brief and 75/30-second reported versions are recorded; 30-second acceptance is UNKNOWN. |
-| Presentations | Design system ready | Build the 16-section source map from the supplied briefs and transcripts | Plan: outline → owner selects native animation or motion plan → design/motion brief → texts → evidence review. Fact: v3.2 was reportedly delivered; the later owner structure has priority, but exact slide count and source evidence are UNKNOWN; Knowledge Cat production QA, visual/motion, monetisation framing, and evidence-review skills are available before delivery. |
-| Pilot users | Methods ready | Confirm research objective, target group, and consent process | Plan: desk research → segment/Job Story → journey or concept test → candidate list → outreach draft → interviews → findings. Fact: desk research, segmentation/JTBD, design-thinking, and journey-to-backlog skills are available; no contacts or research brief is recorded. |
+| Presentations | Latest defence registered | Create the v10 source map before a further revision | Plan: outline → owner selects native animation or motion plan → design/motion brief → texts → evidence review. Fact: the owner confirmed `CoreTeams-по-структуре-2026-10-02-v10.pptx` as the canonical latest defence; no production change was made. |
+| Pilot users | Sprint validation method ready | Define the first sprint hypothesis, target group, and consent process | Plan: every sprint → hypothesis check with users → result or `NOT_RUN` → decision; then desk research → segment/Job Story → journey or concept test → candidate list → outreach draft → interviews → findings. Fact: the owner-approved aggregate research synthesis, real-versus-counterfactual interview method, and response-synthesis method are recorded; no contacts or raw participant responses are stored. |
 
 ## Blockers
 
@@ -22,7 +22,7 @@ Create the shared operating baseline: confirm scope, owners, and source location
 - Obsidian vault path and ownership map have not yet been supplied.
 - PPS working tree contains local modifications and untracked files; source work is blocked pending confirmation of the canonical state and an explicit owner request.
 - Video: acceptance of the 30-second cut and its effect on the three revision rounds are unconfirmed.
-- Presentations: the requested section sequence has ambiguous numbering and the referenced briefs/transcripts have not yet been reviewed.
+- Pilot users: the first current-sprint hypothesis, target group, and consent process are not yet specified; a user check cannot be claimed before they are recorded and run.
 - PM: E2E readiness, task statuses, and the Integration Owner are not verified against the tracker or current branches.
 
 ## Harness maturity
@@ -35,7 +35,7 @@ No task worktrees are active. A worktree is permitted only for a task that passe
 
 ## Project-local skills
 
-The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. Eight owner-requested, source-derived skills support PM, Direction 2.5, presentations, and pilot research; their allocation and the scoped Founder methods are in `orchestrator/skill-map.md`.
+The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. Ten owner-requested, source-derived skills support PM, Direction 2.5, presentations, and pilot research; their allocation and the scoped Founder methods are in `orchestrator/skill-map.md`.
 
 ## Multi-project orchestrator
 
@@ -64,3 +64,4 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: installed the personal `knowledge-cat-ppt-skill` and added an orchestrator choice for each concrete deck: verified native PowerPoint animation or a motion plan with static reading order.
 - 2026-10-14: installed personal React best-practice, component-composition, web-design-audit, and Playwright skills; added a staged static-to-React routing for Direction 2.5. React Doctor installation and browser-test setup are pending a Node/npm-capable runtime.
 - 2026-10-14: after owner confirmation, created YouGile tasks `PPS-180` through `PPS-186` for shared team harness work and skills by track. `PPS-180` and `PPS-181` are assigned to Екатерина Поварнина; `PPS-180` is marked in its description for the next sprint because the tracker has no separate next-sprint container.
+- 2026-10-14: with owner approval, published an aggregate pilot-research synthesis only: the v10 defence is canonical, the form remains an aggregate and limited source, and every sprint must include a user check for at least one product hypothesis. Added focused discovery and synthesis skills; no participant identifiers, contacts, or raw responses were copied.

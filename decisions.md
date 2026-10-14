@@ -151,3 +151,11 @@
 - Decision: for a static-to-React change in Direction 2.5, preserve a scenario and `localStorage` baseline first; then use React best practices during implementation, composition patterns only for proven reusable boundaries, Playwright for scenario parity, and a web-design audit at the end. React Doctor remains conditional on a working Node/npm runtime.
 - Rationale: the current v9 UI is a browser-local static implementation, so behavioural evidence must precede refactoring and the required tools should be used only in their narrow phase.
 - Owner: project owner
+
+## D-020 — Canonical v10 defence and sprint user-check cadence
+
+- Date: 2026-10-14
+- Status: active
+- Decision: treat `CoreTeams-по-структуре-2026-10-02-v10.pptx` as the canonical latest defence. In every sprint, check at least one product hypothesis with users and retain the hypothesis, method, consent boundary, support/disconfirm rule, result or `NOT_RUN`, and resulting product decision.
+- Rationale: the owner confirmed the latest deck and requires recurring user validation. A planned, imagined, or unrun check is not evidence that a product hypothesis was validated.
+- Owner: project owner
