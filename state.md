@@ -12,8 +12,8 @@ Create the shared operating baseline: confirm scope, owners, and source location
 |---|---|---|---|
 | PM | Setup | Confirm team, milestones, and reporting cadence | Plan: baseline. Fact: no team inputs recorded yet. |
 | Direction 2.5 — CoreTeams Product Web | Baseline mapped | Confirm product priority and acceptance criteria against the specification package | Plan: map specifications, criteria, research. Fact: PPS context card is READY; current React runtime is a local simulation, not CTF/gateway/production integration. |
-| Video — CTF | Setup | Obtain audience, duration, format, and source materials | Plan: scenario → prompts → assembly. Fact: brief not yet provided. |
-| Presentations | Setup | Obtain defence date, rubric, and prior materials | Plan: outline and texts. Fact: requirements not yet provided. |
+| Video — CTF | Context captured | Confirm acceptance of the 30-second cut and whether it consumes a revision round | Plan: scenario → prompts → assembly. Fact: horizontal 3D/no-music brief and 75/30-second reported versions are recorded; 30-second acceptance is UNKNOWN. |
+| Presentations | Structure pending | Build the 16-section source map from the supplied briefs and transcripts | Plan: outline and texts. Fact: v3.2 was reportedly delivered; the later owner structure has priority, but exact slide count and source evidence are UNKNOWN. |
 | Pilot users | Setup | Confirm research objective, target group, and consent process | Plan: list → outreach draft → interviews → findings. Fact: no contacts or research brief recorded. |
 
 ## Blockers
@@ -21,6 +21,8 @@ Create the shared operating baseline: confirm scope, owners, and source location
 - YouGile tracker must be available to its connector before epics can be created and linked.
 - Obsidian vault path and ownership map have not yet been supplied.
 - PPS working tree contains local modifications and untracked files; source work is blocked pending confirmation of the canonical state and an explicit owner request.
+- Video: acceptance of the 30-second cut and its effect on the three revision rounds are unconfirmed.
+- Presentations: the requested section sequence has ambiguous numbering and the referenced briefs/transcripts have not yet been reviewed.
 
 ## Harness maturity
 
@@ -40,7 +42,7 @@ Four read-only slots are configured in `orchestrator/projects.toml`. `project-01
 
 ## OpenSpec
 
-OpenSpec is initialized in this harness with the `spec-driven` schema. Its workflow is reserved for durable changes to the harness or a mapped product project; each of the four source-project slots is marked `pending-initialization` until its real root is supplied. Target phrases are in `orchestrator/interaction.md`.
+OpenSpec is initialized in this harness with the `spec-driven` schema. Its workflow is reserved for durable changes to the harness or a mapped product project; PPS is not initialized and the other three source-project slots remain pending a real root. Target phrases are in `orchestrator/interaction.md`.
 
 ## Session log
 
@@ -52,3 +54,4 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: initialized OpenSpec in `project-harness`, configured its safeguards, and added the owner interaction protocol; no external project was initialized because its local root is unknown.
 - 2026-10-14: mapped PPS — ПП Сбер — осень as `project-01` for Direction 2.5 at branch `PPS-2`; source context collection is pending.
 - 2026-10-14: collected the first read-only PPS context card; the current React prototype is confirmed as a local simulation, while production integration requirements remain unconfirmed.
+- 2026-10-14: stored a chat-sourced Video/Presentations context card; no media, presentation, or external project was changed.

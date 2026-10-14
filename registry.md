@@ -15,6 +15,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 |---|---|---|---|
 | YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Supplied by owner; connector awaits an active authenticated YouGile tab. |
 | Obsidian | Durable project knowledge | Not supplied | Awaiting vault path / shared workspace. |
+| Codex video chat | Video and presentation context | `orchestrator/context/video-chat.md` | READY (chat-sourced); local asset paths are deliberately not stored in Git. |
 
 ## Multi-project orchestration
 

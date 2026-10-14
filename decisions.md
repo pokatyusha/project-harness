@@ -55,3 +55,19 @@
 - Decision: use OpenSpec's `spec-driven` workflow for durable changes to `project-harness` and, after mapping and explicit owner authorization, to source projects; initialize it separately in each mapped source project rather than sharing a mutable cross-project change directory.
 - Rationale: provides a reviewable boundary between discovery, specification, implementation, verification, and archival without bypassing the four-project read-only policy.
 - Owner: project owner
+
+## D-008 — Preserve video versions and gate final rendering
+
+- Date: 2026-10-14
+- Status: active
+- Decision: preserve existing media versions; use 720p/24 fps for draft renders and render 1080p/30 fps only after the owner approves the content.
+- Rationale: the chat context records deferred video revision and three bounded revision rounds; version preservation prevents loss of a reviewable baseline.
+- Owner: project owner
+
+## D-009 — Latest owner presentation structure takes precedence
+
+- Date: 2026-10-14
+- Status: active
+- Decision: use the latest owner-specified sequence as the target structure for the next CoreTeams presentation revision; do not infer its exact slide count until confirmed.
+- Rationale: the earlier v3.2 deck was reportedly delivered before a later, stricter sequence was supplied.
+- Owner: project owner

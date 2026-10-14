@@ -4,8 +4,8 @@
 |---|---|---|---|---|---|---|
 | PM | Milestones with named owner and acceptance criteria | TBD | TBD | TBD | YouGile / state | Weekly |
 | Direction 2.5 | Accepted specifications and research findings | TBD | TBD | TBD | Repository / research notes | Weekly |
-| Video | Approved scenario and production-ready assets | TBD | TBD | TBD | Video workflow | Weekly |
-| Presentations | Slides ready against defence rubric | TBD | TBD | TBD | Presentation workflow | Weekly |
+| Video | Approved scenario and production-ready assets | TBD | TBD | 75-second and 30-second versions reported; 30-second acceptance UNKNOWN | Video chat context | Weekly |
+| Presentations | Slides ready against defence rubric | TBD | TBD | v3.2 reported; owner-defined structure pending source map | Video chat context | Weekly |
 | Pilot users | Completed consented interviews and synthesized findings | TBD | TBD | TBD | Interview notes | Weekly |
 
 ## Delivery flow
