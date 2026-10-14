@@ -21,6 +21,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 | Founder skill | Optional public methods for market, economic, and launch questions | https://github.com/Jakeschincariol/founder-skill | Already available in the environment as `founder-*`; no duplicate installation. Its simulated and financial outputs are bounded in `orchestrator/skill-map.md`. |
 | Presentation visual reference | Dark void / restrained accent inspiration for defence-slide design | https://styles.refero.design/style/e5f5f8cf-e68d-4ed1-bbf5-6b67569af648 | Owner-provided tokens are adapted in `.agents/skills/presentation-visual-motion/`; no third-party layouts, logo, or visual assets are copied. |
 | Knowledge Cat PPT | Personal production and QA skill for presentation decks | `~/.codex/skills/knowledge-cat-ppt-skill` | Installed from https://github.com/gnipbao/knowledge-cat-ppt-skill on 2026-10-14. It selects the presentation output lane and QA; project styling and animation boundaries remain in `presentation-visual-motion`. |
+| React migration skills | Personal coding and QA skills for the Direction 2.5 static-to-React path | `~/.codex/skills/react-best-practices`, `composition-patterns`, `web-design-guidelines`, `playwright-skill` | Installed from Vercel Agent Skills and `lackeyjb/playwright-skill` on 2026-10-14. Use order and boundaries are in `orchestrator/skill-map.md`; Playwright setup and React Doctor require a Node/npm-capable runtime. |
 
 ## Multi-project orchestration
 

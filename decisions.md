@@ -143,3 +143,11 @@
 - Decision: before building a concrete presentation, the owner chooses either native PowerPoint animation or a slide-by-slide motion plan. The agent may claim native animation only after verifying that the chosen output lane preserved it.
 - Rationale: keeps the visual intent, deliverable format, and verification claim aligned; a motion plan remains useful when the production lane cannot reliably produce editable native animation.
 - Owner: project owner
+
+## D-019 — Staged skill routing for the CoreTeams React migration
+
+- Date: 2026-10-14
+- Status: active
+- Decision: for a static-to-React change in Direction 2.5, preserve a scenario and `localStorage` baseline first; then use React best practices during implementation, composition patterns only for proven reusable boundaries, Playwright for scenario parity, and a web-design audit at the end. React Doctor remains conditional on a working Node/npm runtime.
+- Rationale: the current v9 UI is a browser-local static implementation, so behavioural evidence must precede refactoring and the required tools should be used only in their narrow phase.
+- Owner: project owner

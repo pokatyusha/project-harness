@@ -40,6 +40,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Keep parallel tasks small; record their Definition of Done, checks, merge owner, and cleanup condition before starting.
 - Retrieve context from project folders only through `.agents/skills/multi-project-context/SKILL.md`, after its required GitHub check and only after configured root paths are filled.
 - Use OpenSpec for durable changes to the harness or a mapped product project: explore/propose before implementation, then apply, verify, and archive as separate owner requests.
+- For a Direction 2.5 static-to-React migration, first preserve a scenario and data-contract baseline; then use `react-best-practices` while building, `composition-patterns` only when reusable UI boundaries emerge, `playwright-skill` for parity evidence, and `web-design-guidelines` for the final UI audit. Run `react-doctor` only where Node/npm are available.
 
 ## Commands
 

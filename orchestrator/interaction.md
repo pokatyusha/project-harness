@@ -8,6 +8,7 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 |---|---|
 | `PM: <goal>` | Launch YouGile, then plan, decompose, reconcile plan/fact, statuses, and risks. |
 | `2.5: <goal>` | Launch GitHub, then work on CoreTeams Product Web research, requirements, specifications, and acceptance criteria. |
+| `2.5 React: <goal>` | Launch GitHub, then plan or execute an approved static-to-React migration: scenario/storage baseline → React implementation → Playwright parity → UI audit. No source-project write occurs without a separate explicit owner request. |
 | `Видео: <goal>` | CTF video: brief, script, prompts, asset list, assembly plan. |
 | `Презентации: <goal>` | Defence: outline, slide texts, evidence, visual direction, and rehearsal checklist. For a concrete deck, I will ask the owner to choose `native PowerPoint animation` or `motion plan` before production. |
 | `Пилоты: <goal>` | Pilot users: research plan, interview guide, outreach drafts, synthesis. |
