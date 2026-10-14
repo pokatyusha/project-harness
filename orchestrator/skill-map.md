@@ -5,7 +5,7 @@
 | PM | `evidence-artifact-review` | `workflows/pm.md`, YouGile | Review material claims before sharing; work from verified tracker data and do not infer live task status. |
 | Direction 2.5 — CoreTeams Product Web | `design-thinking-experiment`, `journey-evidence-to-backlog`, `monetization-unit-model`, `direction-2-5-spec-readiness`, `multi-project-context`, OpenSpec skills | `workflows/direction-2.5.md`, GitHub, YouGile | Explore evidence before scope; frame any business model without invented numbers; then use readiness before OpenSpec. Source-project edits need separate authorization. |
 | Video — CTF | No source-derived skill yet | `workflows/video.md` | Retain the agreed brief and seek approval before rendering or publishing. |
-| Presentations | `presentation-visual-motion`, `monetization-unit-model`, `evidence-artifact-review` | `workflows/presentations.md`, Presentations capability | Build only from reviewed source evidence and the approved defence structure; use the dark token system as inspiration, never as a copied site design. |
+| Presentations | `presentation-visual-motion`, `monetization-unit-model`, `evidence-artifact-review` | `workflows/presentations.md`, `knowledge-cat-ppt-skill`, Presentations capability | Build only from reviewed source evidence and the approved defence structure; choose native PowerPoint animation or a motion plan before production; use the dark token system as inspiration, never as a copied site design. |
 | Pilot users | `pilot-desk-research`, `pilot-segmentation-jtbd`, `design-thinking-experiment`, `journey-evidence-to-backlog` | `workflows/pilot-users.md` | Use methods before candidate outreach; contacts and invitations require owner confirmation. |
 | Cross-project context | `multi-project-context` | `orchestrator/` retrieval prompts | Read mapped source folders only after the GitHub check and only as configured. |
 
@@ -14,6 +14,8 @@
 Owner-provided learning materials were reviewed on 2026-10-14. Their methods were distilled into the project-local skills above; the source files, their full text, images, and local locations are not copied to this repository. `Цифровой_бизнес_и_модели_монетизации_3.html` and `_4.html` are byte-identical and are treated as one source.
 
 The owner-provided presentation visual reference and token set are retained only as a compact design adaptation in `presentation-visual-motion`; no third-party brand assets or layouts are copied.
+
+`knowledge-cat-ppt-skill` is installed in the owner's personal Codex skills. It selects the production lane and QA workflow; `presentation-visual-motion` remains the project-specific design and animation layer.
 
 ## Founder-skill allocation
 

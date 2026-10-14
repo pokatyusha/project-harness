@@ -9,7 +9,7 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 | `PM: <goal>` | Launch YouGile, then plan, decompose, reconcile plan/fact, statuses, and risks. |
 | `2.5: <goal>` | Launch GitHub, then work on CoreTeams Product Web research, requirements, specifications, and acceptance criteria. |
 | `Видео: <goal>` | CTF video: brief, script, prompts, asset list, assembly plan. |
-| `Презентации: <goal>` | Defence: outline, slide texts, evidence and rehearsal checklist. |
+| `Презентации: <goal>` | Defence: outline, slide texts, evidence, visual direction, and rehearsal checklist. For a concrete deck, I will ask the owner to choose `native PowerPoint animation` or `motion plan` before production. |
 | `Пилоты: <goal>` | Pilot users: research plan, interview guide, outreach drafts, synthesis. |
 | `Оркестратор: <goal>` | A question spanning two or more tracks or one of the four mapped project folders. |
 
@@ -26,6 +26,8 @@ Start a request with one switch phrase and a short goal. I will read the relevan
 | `Только прочитай: <goal>` | Analyse without editing files or external systems. |
 | `Черновик: <goal>` | Create an internal draft only; no external communication or publication. |
 | `Выполни: <goal>` | Implement the named internal change and run the stated checks. |
+| `Анимация колоды: native PowerPoint` | Produce and verify native slide animations when the selected authoring tool can preserve them. |
+| `Анимация колоды: motion plan` | Produce a slide-by-slide animation plan and static reading order; do not claim the delivered deck contains native animation. |
 | `Внешнее действие: <description> — разрешаю` | Carry out the named email, invitation, publication, or third-party update after showing the final target and scope. |
 
 ## OpenSpec phrases

@@ -135,3 +135,11 @@
 - Decision: use `presentation-visual-motion` for new defence-slide visual direction and motion planning. It adapts the owner-provided dark token system for projector-readable slides, keeps evidence editable, and treats the linked style reference as inspiration rather than a template or asset source.
 - Rationale: establishes consistent visual hierarchy and purposeful animation without copying a third-party site or compromising readability.
 - Owner: project owner
+
+## D-018 — Owner selects animation delivery mode per concrete deck
+
+- Date: 2026-10-14
+- Status: active
+- Decision: before building a concrete presentation, the owner chooses either native PowerPoint animation or a slide-by-slide motion plan. The agent may claim native animation only after verifying that the chosen output lane preserved it.
+- Rationale: keeps the visual intent, deliverable format, and verification claim aligned; a motion plan remains useful when the production lane cannot reliably produce editable native animation.
+- Owner: project owner
