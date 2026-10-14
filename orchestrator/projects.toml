@@ -34,14 +34,14 @@ excluded_paths = [
 ]
 
 [projects.project-01]
-name = ""
-root = ""
-repository = ""
-branch = ""
-status = "awaiting-mapping"
+name = "PPS — ПП Сбер — осень"
+root = "C:\\Users\\Екатерина Поварнина\\пары мага\\PP-Sber-Autumn-2026"
+repository = "https://github.com/AcryCxde/PP-Sber-Autumn-2026.git"
+branch = "PPS-2"
+status = "ready"
 context_file = "orchestrator/context/project-01.md"
 openspec_root = "openspec"
-openspec_status = "pending-initialization"
+openspec_status = "not-initialized"
 additional_context_paths = []
 
 [projects.project-02]

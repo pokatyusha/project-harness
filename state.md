@@ -11,7 +11,7 @@ Create the shared operating baseline: confirm scope, owners, and source location
 | Track | Status | Nearest action | Plan / fact |
 |---|---|---|---|
 | PM | Setup | Confirm team, milestones, and reporting cadence | Plan: baseline. Fact: no team inputs recorded yet. |
-| Direction 2.5 — CoreTeams Product Web | Setup | Read existing project docs and confirm the expected outcome | Plan: map specifications, criteria, research. Fact: project repository linked; scope not yet extracted. |
+| Direction 2.5 — CoreTeams Product Web | Baseline mapped | Confirm product priority and acceptance criteria against the specification package | Plan: map specifications, criteria, research. Fact: PPS context card is READY; current React runtime is a local simulation, not CTF/gateway/production integration. |
 | Video — CTF | Setup | Obtain audience, duration, format, and source materials | Plan: scenario → prompts → assembly. Fact: brief not yet provided. |
 | Presentations | Setup | Obtain defence date, rubric, and prior materials | Plan: outline and texts. Fact: requirements not yet provided. |
 | Pilot users | Setup | Confirm research objective, target group, and consent process | Plan: list → outreach draft → interviews → findings. Fact: no contacts or research brief recorded. |
@@ -20,6 +20,7 @@ Create the shared operating baseline: confirm scope, owners, and source location
 
 - YouGile tracker must be available to its connector before epics can be created and linked.
 - Obsidian vault path and ownership map have not yet been supplied.
+- PPS working tree contains local modifications and untracked files; source work is blocked pending confirmation of the canonical state and an explicit owner request.
 
 ## Harness maturity
 
@@ -35,7 +36,7 @@ The project-local skill source is `.agents/skills/`. `project-skill-authoring` i
 
 ## Multi-project orchestrator
 
-Four read-only slots are configured in `orchestrator/projects.toml`. All roots are intentionally unmapped, so context collection is blocked until the owner supplies four absolute folder paths and marks each slot `ready`.
+Four read-only slots are configured in `orchestrator/projects.toml`. `project-01` (PPS) is mapped and ready for read-only context collection; the other three remain intentionally unmapped.
 
 ## OpenSpec
 
@@ -49,3 +50,5 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 - 2026-10-14: added a project-local skill authoring workflow and canvas; the structure is ready to retain proven practices across sessions.
 - 2026-10-14: configured the multi-project orchestrator structure, collection prompts, and file-retrieval map; no source project has been read.
 - 2026-10-14: initialized OpenSpec in `project-harness`, configured its safeguards, and added the owner interaction protocol; no external project was initialized because its local root is unknown.
+- 2026-10-14: mapped PPS — ПП Сбер — осень as `project-01` for Direction 2.5 at branch `PPS-2`; source context collection is pending.
+- 2026-10-14: collected the first read-only PPS context card; the current React prototype is confirmed as a local simulation, while production integration requirements remain unconfirmed.
