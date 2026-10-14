@@ -42,6 +42,7 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 - Keep parallel tasks small; record their Definition of Done, checks, merge owner, and cleanup condition before starting.
 - Retrieve context from project folders only through `.agents/skills/multi-project-context/SKILL.md`, after its required GitHub check and only after configured root paths are filled.
 - Direction 2.5 defaults to `coreteams-web-development`: prioritise a bounded web build, bug fix, refactor, test, or UI review. Switch to product research, specification, hypothesis work, or OpenSpec only when the owner asks for it or a concrete web change cannot proceed without it.
+- For every CoreTeams defence, use the owner-approved 15-part sequence in `workflows/presentations.md` unless the owner explicitly replaces it. Before building a concrete deck, ask the owner to choose native PowerPoint animation or a motion plan.
 - Use OpenSpec for durable changes to the harness or a mapped product project: explore/propose before implementation, then apply, verify, and archive as separate owner requests.
 - For a Direction 2.5 static-to-React migration, first preserve a scenario and data-contract baseline; then use `react-best-practices` while building, `composition-patterns` only when reusable UI boundaries emerge, `playwright-skill` for parity evidence, and `web-design-guidelines` for the final UI audit. Run `react-doctor` only where Node/npm are available.
 

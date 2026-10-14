@@ -167,3 +167,11 @@
 - Decision: make a bounded CoreTeams Product Web build, bug fix, refactor, test, or UI review the default outcome of `2.5:`. Product research, specification, monetisation, and OpenSpec work are used only on the owner's explicit request or when a documented uncertainty blocks the web change.
 - Rationale: the owner needs this module to concentrate on web development and edits without turning every request into broad product discovery.
 - Owner: project owner
+
+## D-022 — Fixed CoreTeams defence sequence
+
+- Date: 2026-10-15
+- Status: active
+- Decision: every CoreTeams defence follows the owner-approved 15-part sequence in `workflows/presentations.md`, from product title through team. The eighth part explicitly separates user findings, product hypotheses, and technical hypotheses under test; the ninth begins with a demo for the first persona.
+- Rationale: gives every defence a stable narrative while preserving an honest boundary between verified results and planned validation.
+- Owner: project owner
