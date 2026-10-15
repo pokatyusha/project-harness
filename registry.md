@@ -1,9 +1,12 @@
 # Registry
 
-Updated: 2026-10-14 (Europe/Moscow)
+Updated: 2026-10-15 (Europe/Moscow)
 
 ## Repositories
 
+Active delivery: isolated `coreteams-web-handoff` checkout on `codex/coreteams-react-handoff-2026-10-15`, pushed commit `f6eff6652600645245064817cced8510140503ee` to AcryCxde/PP-Sber-Autumn-2026; separate `web-app/` React/Vite/TS app. Original mapped dirty checkout remains read-only. Draft PR creation returned403 (integration permission); no PR exists for this work yet.
+
+Agent runtime: project-scoped `.codex/config.toml` and four `.codex/agents/*.toml` files; explicit collaboration launches performed. Continuation: verified ACTIVE heartbeat `coreteams-e2e`, every3hours, attached to this thread with owner approval; pause must also disable it. Delivery/clock/budget registry: `orchestrator/launch-2026-10-15.md` and `handoff/2026-10-15/index.md`.
 | Name | Role | Location | Default branch | Access / status |
 |---|---|---|---|---|
 | project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; GitHub plugin is required for harness-function changes; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-15; no task worktree active; project skills live in `.agents/skills/`, including `coreteams-web-development`; owner launch guide: `Agent.md`. |
@@ -11,6 +14,7 @@ Updated: 2026-10-14 (Europe/Moscow)
 
 ## Work trackers and knowledge base
 
+Live15October: PPS-139/165/138/167/166 updated and reread, existing `CoreTeams — Project Hub для заказчика` page `ab681161-45e0-4aa4-b34a-3ed006f6489a` appended without a second index page. Artifact links are added after publication; assignment does not establish recipient acceptance.
 | System | Purpose | Location | Status |
 |---|---|---|---|
 | YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Active authenticated board verified on 2026-10-14: `ПП Сбер - осень` / `Общий backlog и учебные спринты`; plugin is required before planning, task, report, or context work. Tasks `PPS-180`–`PPS-186` were created on 2026-10-14; the tracker has no distinct next-sprint container. |

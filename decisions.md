@@ -175,3 +175,19 @@
 - Decision: every CoreTeams defence follows the owner-approved 15-part sequence in `workflows/presentations.md`, from product title through team. The eighth part explicitly separates user findings, product hypotheses, and technical hypotheses under test; the ninth begins with a demo for the first persona.
 - Rationale: gives every defence a stable narrative while preserving an honest boundary between verified results and planned validation.
 - Owner: project owner
+
+## D-023 — Bounded WEB handoff and role separation
+
+- Date: 2026-10-15
+- Status: active
+- Decision: execute the owner-requested React/Vite/TypeScript WEB handoff in an isolated feature checkout, with four scoped agents and at most two active worker packages. Катя owns WEB/metrics; Илья integrates CTF; Арина designs storage; Филипп connects storage, CI and server; Дмитрий provides conditional React assistance only.
+- Rationale: the five-hour frontend checkpoint and six-hour handoff precede team integration, server deployment and actual user E2E. Preserve the immutable clock in `orchestrator/launch-2026-10-15.md` and the owner's quota reserve.
+- Owner: project owner
+
+## D-024 — Defence draft output mode
+
+- Date: 2026-10-15
+- Status: active
+- Decision: create one editable PPTX draft with a separate motion plan, following the canonical 15-part defence structure.
+- Rationale: explicit owner choice for this concrete draft; user measurements remain pending until consented E2E results exist.
+- Owner: project owner

@@ -1,29 +1,30 @@
 # State
 
-Updated: 2026-10-14 (Europe/Moscow)
+Updated: 2026-10-15 (Europe/Moscow)
 
 ## Week focus
 
-Create the shared operating baseline: confirm scope, owners, and source locations for all five tracks. This is a draft focus pending owner confirmation.
+Deliver the owner-requested WEB and integration package at the immutable checkpoints08:03/09:03MSK15October, then gate real CTF, storage, deployment and paired user results. Execution record: `orchestrator/launch-2026-10-15.md`; package: `handoff/2026-10-15/index.md`.
 
 ## Tracks
 
 | Track | Status | Nearest action | Plan / fact |
 |---|---|---|---|
-| PM | Context captured | Reconcile the Sprint 2 tracker snapshot as `done / in progress / blocked` | Plan: one E2E scenario and defence evidence. Fact: 15 task statuses, owners, and next actions are captured from chat but require live tracker verification; an evidence-review skill is available before sharing a report. |
-| Direction 2.5 — CoreTeams Product Web | Web-delivery routing ready | Capture a v9 scenario and `localStorage` baseline before proposing the first React slice | Plan: default to a bounded web build, fix, refactor, test, or UI review; preserve parity before an approved React slice. Fact: PPS context card is READY; the current v9 client is standalone HTML/CSS/JS with local browser storage and separate demo API contours. `coreteams-web-development` now routes this module to code and web changes first; research/specification remains explicit or blocker-driven. Personal React best-practice, composition, UI-audit, and Playwright skills were installed on 2026-10-14; this runtime lacks `npx`, so React Doctor and Playwright setup are not yet execution-ready. Tracker task `PPS-185` is in the Epic 2.5 backlog. |
+| PM | Live handoff tasks updated | Obtain contract/storage acknowledgments from Илья and Арина, and resolve Филипп's deadline discrepancy | Fact: PPS-139/165/138/167/166 descriptions updated and verified, current owners/statuses retained; Project Hub updated. Филипп's actual task deadline15.10 15:00:02 is retained. Published package is partial; recipient acceptance is unknown. |
+| Direction 2.5 — CoreTeams Product Web | Build verified; branch published | Create/review PR and confirm the proposed project API with Илья | Fact: separate React/Vite/TS `web-app/`, commit f6eff66, feature branch `codex/coreteams-react-handoff-2026-10-15`. Frozen install/typecheck/build,8unit and desktop/mobile/isolated-fixture browser checks passed. Backend unavailable by default; proposed adapter, session-only metrics, browser drafts. PR creation denied403 by GitHub integration, CLI absent. Original dirty PPS untouched. |
 | Video — CTF | Iteration package prepared | Owner reviews the 30-second baseline: `accept` / `revise`, revision-round accounting, and target viewer | Plan: scenario → prompts → assembly. Fact: horizontal 3D/no-music brief and 75/30-second reported versions are recorded; the current review baseline is the 30-second cut, acceptance is UNKNOWN; planning package is `video/ctf-iteration-2026-10-14.md`. |
-| Presentations | Latest defence registered | Create the v10 source map before a further revision | Plan: outline → owner selects native animation or motion plan → design/motion brief → texts → evidence review. Fact: the owner confirmed `CoreTeams-по-структуре-2026-10-02-v10.pptx` as the canonical latest defence; no production change was made. |
-| Pilot users | One corridor session synthesised | Test the four highest-risk comprehension areas with 4–6 people new to the prototype | Plan: three proto-segments are defined by job context: reconcile conflicting evidence, assemble fragmented materials, or make reviewable progress without timely expert access. The current Sprint 2 hypothesis check remains focused on synthesis/validation barriers; a separate hallway test checks first-use comprehension of CoreTeams v9.2. Fact: one 14.10.2026 session reached the end but surfaced unclear value proposition, credits/price, saved versions, and working-space hierarchy. It is `inconclusive`: the participant had already seen the first screen and the moderator partly clarified the scenario. Live YouGile query on 2026-10-15 confirms pilot task `PPS-173` is open. |
+| Presentations | Editable draft verified | Update affected slides after actual integration and pilot evidence | Fact:15editable slides with notes/source map and separate motion plan in `handoff/2026-10-15/presentation/`. Render, re-import, structure/layout finalizer passed. User E2E results remain NOT_RUN. |
+| Pilot users | Research and ZIP package ready | Recruit one eligible consenting solo owner and record baseline before showing the prototype | Fact: eight survey rows support one provisional solo-owner profile R02, with no contact/consent; contactable rows do not establish target eligibility. Three sprints are task hypotheses, not proven segments. Scenario, source-backed decision brief ZIP contract, product skill, messages, metrics and E2E checklist are in the handoff. Actual paired E2E NOT_RUN. Earlier v9.2 corridor session remains inconclusive and is not target-user E2E evidence. |
 
 ## Blockers
 
-- YouGile is connected to the common backlog; live Sprint 2 task reconciliation has not yet been run.
+- YouGile live handoff tasks are reconciled; full Sprint2 reconciliation remains separate.
 - Obsidian vault path and ownership map have not yet been supplied.
-- PPS working tree contains local modifications and untracked files; source work is blocked pending confirmation of the canonical state and an explicit owner request.
+- Original PPS working tree remains dirty and untouched; isolated source feature work is authorised and published.
 - Video: acceptance of the 30-second cut and its effect on the three revision rounds are unconfirmed.
 - Pilot users: recruitment and consent wording require owner approval; no user check may be claimed before consented real-case sessions are run and synthesised.
-- PM: E2E readiness, task statuses, and the Integration Owner are not verified against the tracker or current branches.
+- PM: named handoff task statuses are live-verified; overall Sprint2 reconciliation and a single Integration Owner remain unconfirmed. Actual E2E readiness is not established by tracker edits.
+- Handoff: PR blocked by integration permissions; CTF contract approval and Арина's architecture are missing. Deployment and target recruitment remain prerequisites for user results.
 
 ## Harness maturity
 
@@ -35,7 +36,7 @@ No task worktrees are active. A worktree is permitted only for a task that passe
 
 ## Project-local skills
 
-The project-local skill source is `.agents/skills/`. `project-skill-authoring` is active to capture and package proven practices. Eleven owner-requested, source-derived skills support PM, Direction 2.5, presentations, and pilot research; their allocation and the scoped Founder methods are in `orchestrator/skill-map.md`.
+The project-local skill source is `.agents/skills/`. `project-skill-authoring` captures proven practice. Owner-requested skills support PM, WEB, presentations and pilot research; `coreteams-pilot-result` now specifies the user ZIP and supplies a structural validator tested on isolated synthetic archives. Its adaptation into CTF remains Илья's responsibility. Allocation is in `orchestrator/skill-map.md`.
 
 ## Multi-project orchestrator
 
@@ -47,6 +48,7 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 
 ## Session log
 
+- 2026-10-15: executed the owner-requested four-role launch, pause and explicit resume without resetting T0; published isolated React/Vite/TS commit f6eff66, verified8unit/build/browser checks, and generated the15-slide editable defence draft. Synced five existing YouGile tasks and the existing Hub. Handoff remains partial pending PR permissions, contracts/storage, recipient acceptance and target recruitment. Approved three-hour heartbeat `coreteams-e2e` is ACTIVE; budget remains account-wide with snapshot checks rather than a hard cutoff.
 - 2026-10-13: initialized the separate repository `project-harness`, registered the supplied project repository, and pushed the harness to `https://github.com/pokatyusha/project-harness` (`main`).
 - 2026-10-13: applied the supplied harness guidance: normalized the agent entry point to `AGENTS.md` and added the local verifier; the verifier passed.
 - 2026-10-13: applied the worktree guidance as a parallel-work gate; no additional worktree was created because no eligible task has been selected.

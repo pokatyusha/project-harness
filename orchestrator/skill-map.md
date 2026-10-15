@@ -32,4 +32,6 @@ The public [Founder skill](https://github.com/Jakeschincariol/founder-skill) is 
 
 ## Allocation rule
 
+For the15October launch, `.codex/agents/` scopes the four roles. Pilot hands `coreteams-pilot-result` and `handoff/2026-10-15/pilot-package.md` to WEB/Илья as a specification; neither the pilot agent nor the orchestrator becomes a CTF role. Trigger evidence and actual runtime limitations are recorded in `orchestrator/launch-2026-10-15.md`.
+
 Load the narrowest matching skill for the requested work. A deck or simulated founder method that only supports a method is not evidence for CoreTeams product facts, pilot-user findings, demand, or a completed deliverable.

@@ -6,3 +6,5 @@
 *.key
 secrets/
 private/
+__pycache__/
+*.py[cod]
