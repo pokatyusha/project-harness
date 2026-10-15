@@ -2,6 +2,10 @@
 
 Updated: 2026-10-15 (Europe/Moscow)
 
+## Latest scheduled check
+
+2026-10-15 06:13MSK (`coreteams-e2e`): Usage33% used/67% remaining, short-term window unavailable. Six relevant YouGile cards live-read: PPS-169/165/138/167/166/139 unchanged, all complete:false, no task messages/new acceptance or integration evidence. Matching open B→PPS-2 PR search empty; previously reported PR/login/Wiki blockers unchanged. WEB08:03:08 and handoff09:03:08 checkpoints not yet due. T0 preserved; no new confirmed input, so no worker package, tracker/Wiki mutation, outreach or merge. Automation remains active; no new owner notification required.
+
 ## Week focus
 
 Deliver the owner-requested WEB and integration package at the immutable checkpoints08:03/09:03MSK15October, then gate real CTF, storage, deployment and paired user results. Execution record: `orchestrator/launch-2026-10-15.md`; package: `handoff/2026-10-15/index.md`.

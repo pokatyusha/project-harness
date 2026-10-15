@@ -14,6 +14,7 @@ Current policy supersedes the unset track budget for this launch. Usage is measu
 | Handoff publication, 03:37:30 Europe/Moscow | 23% | 77% | Not returned | Account delta5 points since T0; bounded final link synchronization only; includes possible other-chat usage |
 | Owner clarification, 03:54:10 Europe/Moscow | 24% | 76% | Not returned | Account delta6 points since T0; four task criteria/identity/deck revision and local preview; no new worker launch |
 | Product candidate B, 04:49 Europe/Moscow | 28% | 72% | Not returned | Account delta10 points since T0, includes other chats. B built/tested/pushed and offered; no new workers, paid API, real CTF or user outreach. Reserve still snapshot-based |
+| Scheduled check, 06:13 Europe/Moscow | 33% | 67% | Not returned | Short read-only tracker/PR check; no new execution input or due checkpoint, no worker package. Account delta15 points since T0 may include other chats; threshold50% not reached |
 
 Reset Unix time: 1792474728. No credits or resets used. Automatic budget stop is not configured: the available tools provide Usage reads and agent interrupts, but no verified quota-triggered interrupt. Check between bounded packages and start no new work at <=50% remaining. Do not guarantee a final reserve against unobserved external account use.
 
