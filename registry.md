@@ -4,6 +4,7 @@ Updated: 2026-10-15 (Europe/Moscow)
 
 ## Repositories
 
+PR continuation after owner login report: refreshed browser tab6 remained signed out; visible GitHub login page retained with return-to the exact PPS-2←B compare. Plugin draft:true retry still403; no PR created, no merge or source mutation. Existing prepared PR description/checklist unchanged.
 Draft PR request15October: [prepared description/checklist](handoff/2026-10-15/draft-pr-body.md), base `PPS-2` aa9bb424 → head `codex/coreteams-v92-product-workspace-2026-10-15`8ab6c2a. Fresh GitHub create_pull_request(draft:true) returned403, no PR URL. Matching open-PR search empty. CLI absent; browser compare page signed out and retained for handoff. No source writes or merge. Base branch endpoint protected:false/required-check contexts empty; broader rulesets/review/merge method not verified.
 
 Current comprehensive handoffr4: sourceB `8ab6c2a0f062ab9dd7ee719d9056fcc2c89c75a7`, published/plugin-verified;20unit/build/fullbrowser/status checks. [Wiki-ready packet](handoff/2026-10-15/web-transfer-wiki.md), [owner PR/merge guide](handoff/2026-10-15/owner-pr-merge.md), [actual agent dispatch](handoff/2026-10-15/agent-dispatch.md). RemotePPS-2aa9bb424Proposed Storage ADR; B includesA+B/docs60added files, diverged5ahead/1behind at audit. No openPR found; merge rules/CI UNKNOWN. Earlier local-only session notes below are historical; owner now requested fixation of this operational context, excluding actual private study exports.
