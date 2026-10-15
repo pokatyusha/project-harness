@@ -1,6 +1,10 @@
 # State
 
-Updated: 2026-10-15 (Europe/Moscow)
+Updated: 2026-10-16 (Europe/Moscow)
+
+## Current WEB implementation
+
+Owner-requested WEB16–21 implemented and published as source [ce8b6f4](https://github.com/AcryCxde/PP-Sber-Autumn-2026/commit/ce8b6f4259f682f74e128fcce12e0290e02f9186). B: structured questions/stale-fork recovery, explicit unknown/progress, actual byte/hash checks and role-event evidence, new linked rework Run in the same project with preserved history/versions, separate version approval receipt; study usage totals per Run.35unit/type/build and desktop/mobile smoke + contract-browser fixtures pass. [Verification](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/ce8b6f4259f682f74e128fcce12e0290e02f9186/web-product/docs/verification.md). GitHub plugin verifies PR11 open/draft:true/merged:false, headce8b6f4/basePPS-2aa9bb424. Preview4192 rebuilt with CTF disabled; A/backend/original dirty PPS untouched. Next: jointly map and verify gateway/runner/storage boundaries before technical E2E, then consented user comparison; both remain NOT_RUN. No task/Wiki/outreach mutations, new deadlines or merge; T0 unchanged. Earlier scheduled and approval-only notes below are historical, not current implementation status.
 
 ## Latest scheduled check
 

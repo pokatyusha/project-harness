@@ -1,6 +1,8 @@
 # Registry
 
-Updated: 2026-10-15 (Europe/Moscow)
+Updated: 2026-10-16 (Europe/Moscow)
+
+Current WEB16–21 evidence: source [ce8b6f4259f682f74e128fcce12e0290e02f9186](https://github.com/AcryCxde/PP-Sber-Autumn-2026/commit/ce8b6f4259f682f74e128fcce12e0290e02f9186), [existing B proposal updated in place](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/ce8b6f4259f682f74e128fcce12e0290e02f9186/web-product/docs/ctf-v2-contract.md), [35tests/build/browser evidence](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/ce8b6f4259f682f74e128fcce12e0290e02f9186/web-product/docs/verification.md), [PR11](https://github.com/AcryCxde/PP-Sber-Autumn-2026/pull/11). GitHub plugin readback confirms headce8b6f4, basePPS-2aa9bb424, draft:true, merged:false. Local B preview4192 uses CTF OFF;4191 is synthetic fixture only. No A/backend/deploy/merge/task/Wiki/communication changes. Joint linkage/approval/event mapping and real server/user E2E still pending. Earlier pinned8ab6c2a audit remains a historical slice, not an acceptance of the new service integration.
 
 Scheduled check receipt06:13MSK15October: Usage67% remaining; six handoff cards live-read unchanged, no new messages; no matching open B→PPS-2 PR. No due checkpoint/new confirmed execution input; no package or external mutation. Immutable clock retained, existing login/PR/Wiki blockers not repeated to owner.
 
