@@ -42,4 +42,3 @@
 - [WEB B V2 proposed,8ab6c2a](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/8ab6c2a0f062ab9dd7ee719d9056fcc2c89c75a7/web-product/docs/ctf-v2-contract.md).
 - [Реестр уже существующих контрактов](README.md), [срез совместимости](compatibility.md). При подготовке этого ответа новых service tests не запускали; прежний срез не становится PASS от согласования текста.
 - D-033 в decisions.md фиксирует принятие web-позиции. Частный расширенный draft сохранён локально как история и не публикуется как целиком принятый контракт.
-
