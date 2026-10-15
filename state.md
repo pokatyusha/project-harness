@@ -48,6 +48,7 @@ OpenSpec is initialized in this harness with the `spec-driven` schema. Its workf
 
 ## Session log
 
+- 2026-10-15 03:39MSK: owner refresh restored live YouGile; completed only pending link publication. Harness package f88e046 is on main and plugin-verified. Five existing task descriptions and Hub now link published materials; reread verified unchanged owners, deadlines, columns and completion. No outreach; user measurements remain NOT_RUN. Latest weekly quota snapshot: 77% remaining.
 - 2026-10-15: executed the owner-requested four-role launch, pause and explicit resume without resetting T0; published isolated React/Vite/TS commit f6eff66, verified8unit/build/browser checks, and generated the15-slide editable defence draft. Synced five existing YouGile tasks and the existing Hub. Handoff remains partial pending PR permissions, contracts/storage, recipient acceptance and target recruitment. Approved three-hour heartbeat `coreteams-e2e` is ACTIVE; budget remains account-wide with snapshot checks rather than a hard cutoff.
 - 2026-10-13: initialized the separate repository `project-harness`, registered the supplied project repository, and pushed the harness to `https://github.com/pokatyusha/project-harness` (`main`).
 - 2026-10-13: applied the supplied harness guidance: normalized the agent entry point to `AGENTS.md` and added the local verifier; the verifier passed.

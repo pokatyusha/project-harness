@@ -14,7 +14,7 @@ Agent runtime: project-scoped `.codex/config.toml` and four `.codex/agents/*.tom
 
 ## Work trackers and knowledge base
 
-Live15October: PPS-139/165/138/167/166 updated and reread, existing `CoreTeams — Project Hub для заказчика` page `ab681161-45e0-4aa4-b34a-3ed006f6489a` appended without a second index page. Artifact links are added after publication; assignment does not establish recipient acceptance.
+Live15October, 03:39MSK: PPS-139/165/138/167/166 updated and reread, existing `CoreTeams — Project Hub для заказчика` page `ab681161-45e0-4aa4-b34a-3ed006f6489a` appended without a second index page. Published artifact links to WEB commit f6eff66 and harness package f88e046 were added and verified in all five tasks and Hub; owners, deadlines, columns and completion stayed unchanged. Assignment does not establish recipient acceptance.
 | System | Purpose | Location | Status |
 |---|---|---|---|
 | YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Active authenticated board verified on 2026-10-14: `ПП Сбер - осень` / `Общий backlog и учебные спринты`; plugin is required before planning, task, report, or context work. Tasks `PPS-180`–`PPS-186` were created on 2026-10-14; the tracker has no distinct next-sprint container. |
