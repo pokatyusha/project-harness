@@ -6,6 +6,8 @@ Scheduled check receipt06:13MSK15October: Usage67% remaining; six handoff cards 
 
 ## Repositories
 
+YouGile PR #11 linkage receipt: [Wiki PPS-159](https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Wiki/PPS-159) appended via browser UI, Save/reload verified marker/link/four directions and prior content. PPS-169/138/167/166 descriptions carry one PR-11-REVIEW-2026-10-15 block each; final metadata unchanged after restoring transient one-second PPS-167 deadline deviation. [Detailed receipt/checks](handoff/2026-10-15/pr-11-yougile-review.md). No comments/messages, reviewer requests or merge; kb API still Unknown tool. This is the requested PR supplement, not the whole earlier r4 Wiki packet.
+
 Current PR receipt: [CoreTeams draft #11](https://github.com/AcryCxde/PP-Sber-Autumn-2026/pull/11), created by agent through owner-authorised signed-in Codex-browser UI; independently verified via GitHub plugin GET: open, draft:true, merged:false, auto_merge:null, basePPS-2aa9bb424/headB8ab6c2a. Description matches prepared scope with7 prior local checks/12 pending gates; attached to this chat and browser retained as deliverable. No review requests/merge/source edit/tracker mutation. Earlier failed/signed-out/no-PR entries below are historical and superseded by this receipt; integration write403 itself not fixed.
 
 PR continuation after owner login report: refreshed browser tab6 remained signed out; visible GitHub login page retained with return-to the exact PPS-2←B compare. Plugin draft:true retry still403; no PR created, no merge or source mutation. Existing prepared PR description/checklist unchanged.

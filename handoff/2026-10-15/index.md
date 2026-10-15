@@ -10,6 +10,8 @@
 
 ## Единственные источники пакета
 
+PR #11/review sync: [Wiki PPS-159](https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Wiki/PPS-159) дополнена через UI и перечитана после reload; PPS-169/138/167/166 содержат PR-ссылку и проверки по направлениям, итоговые metadata сохранены. [Протокол и полный текст проверок](pr-11-yougile-review.md). Это выполненная публикация дополнения PR, не утверждение, что весь ранее подготовленный r4 packet уже в Wiki. PR draft, no merge; человеческое принятие UNKNOWN.
+
 | Часть | Результат | Факт / обязательный вход |
 |---|---|---|
 | WEB | [React/Vite/TypeScript](https://github.com/AcryCxde/PP-Sber-Autumn-2026/tree/codex/coreteams-react-handoff-2026-10-15/web-app), commit `f6eff6652600645245064817cced8510140503ee` | Типы, сборка,8unit и desktop/mobile/browser-fixture проверки прошли. PR-плагин вернул403; [создать PR](https://github.com/AcryCxde/PP-Sber-Autumn-2026/compare/PPS-2...codex/coreteams-react-handoff-2026-10-15?expand=1). Исходный dirty PPS не изменён |
