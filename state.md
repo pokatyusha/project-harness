@@ -18,6 +18,7 @@ Deliver the owner-requested WEB and integration package at the immutable checkpo
 
 ## Blockers
 
+- Owner explicitly requested a draft PR into PPS-2, no merge. Fresh create attempt with prepared description/checklist returned GitHub integration403 (`Resource not accessible by integration`); no PR was created. CLI unavailable; fallback compare page is signed out, so owner sign-in or restored PR-write integration is needed. [Ready PR body](handoff/2026-10-15/draft-pr-body.md); checked base aa9bb424/head8ab6c2a, no open matching PR. Branch endpoint reports PPS-2 protected:false/checks empty, but broader rulesets/reviews remain unverified. No merge, rebase, force push or source edit.
 - YouGile live handoff tasks are reconciled; full Sprint2 reconciliation remains separate.
 - Obsidian vault path and ownership map have not yet been supplied.
 - Original PPS working tree remains dirty and untouched; isolated source feature work is authorised and published.
