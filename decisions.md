@@ -191,3 +191,11 @@
 - Decision: create one editable PPTX draft with a separate motion plan, following the canonical 15-part defence structure.
 - Rationale: explicit owner choice for this concrete draft; user measurements remain pending until consented E2E results exist.
 - Owner: project owner
+
+## D-025 — Immutable CoreTeams identity and user-journey sprint focus
+
+- Date: 2026-10-15
+- Status: active
+- Decision: retain exactly `CoreTeams — Рабочее пространство с AI-командой для сложных задач вне одной экспертизы` across modules. The current defence checks the user journey, not a renamed brief product. Prepare team tasks only after live Sprint2/ownership audit: Дмитрий gateway (PPS-169/170), Илья runner/CTF (PPS-137/138), Арина storage (PPS-167/136/135), Филипп infra (PPS-166/142). Conditional React help is additional, not Дмитрий's main role.
+- Rationale: explicit owner clarification and current tracker evidence; avoid duplication or assigning work outside each person's direction.
+- Owner: project owner

@@ -20,6 +20,8 @@ Defence date, rubric, required format, project evidence, and reviewers' feedback
 
 ## Canonical CoreTeams defence sequence
 
+Always retain the name `CoreTeams` and the approved product line: `Рабочее пространство с AI-командой для сложных задач вне одной экспертизы`. The current sprint checks the user journey: task/context, run, clarification/answer, result, save/ZIP, return to project. An analytical brief is only this sprint's test artifact. Show step completion, blockers and requested help; do not turn unrun validation into a product claim.
+
 Use this sequence for every CoreTeams defence unless the owner explicitly changes it:
 
 1. Title and the product being defended.

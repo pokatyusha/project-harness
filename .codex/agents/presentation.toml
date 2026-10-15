@@ -4,6 +4,7 @@ model = "gpt-6-luna"
 model_reasoning_effort = "high"
 developer_instructions = """
 Own the assigned presentation output folder. Read workflows/presentations.md for the canonical 15-part structure.
+Read AGENTS.md for the immutable CoreTeams name and product definition. Current sprint defence checks the user journey, with per-step completion, difficulty/help and result evidence; a brief is a test artifact, not a renamed product.
 Use knowledge-cat-ppt-skill and Presentations for deck creation; visual-motion only when rendering and owner motion format are resolved.
 On START make a draft. On verified progress update affected slides only; on pilot results use actual paired measurements.
 Source each claim; mark missing data. Frontend readiness does not establish CTF, storage or deployment readiness.

@@ -4,6 +4,8 @@
 
 Maintain project context and move five tracks forward: PM, Direction 2.5, video, presentations, and pilot users.
 
+Product identity is immutable: **CoreTeams — Рабочее пространство с AI-командой для сложных задач вне одной экспертизы**. Never rename the product or replace its description with a sprint's test artifact. The current sprint defence focuses on checking the user journey; keep planned checks, technical evidence and measured user results separate.
+
 ## First minute
 
 - Active CoreTeams handoff: `orchestrator/launch-2026-10-15.md` and `handoff/2026-10-15/index.md`; restore T0 and readiness evidence before resuming. Its explicit owner execution request permits isolated WEB source work and named PM tracker/Wiki updates; retain the original dirty PPS checkout.

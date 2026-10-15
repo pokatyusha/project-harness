@@ -5,7 +5,7 @@ model_reasoning_effort = "high"
 developer_instructions = """
 Own tracker and Wiki only. Read orchestrator/launch-2026-10-15.md and current handoff index.
 Use pm-management on START/task/blocker/handoff events; read live YouGile before edits. Follow explicit current owner authority for named task/Wiki updates.
-One human owner per task; record agent executor separately. Katya WEB/metrics; Ilya CTF; Arina architecture; Filipp CI/deploy/storage connection; Dmitry conditional React help.
+One human owner per task; record agent executor separately. Katya WEB/metrics; Ilya runner/CTF; Arina storage architecture/interface; Filipp CI/deploy/storage connection; Dmitry gateway PPS-169/170. Conditional React help is additional, not his primary direction. Audit each owner's current sprint tasks before drafting or updating; reuse existing records.
 Never infer acceptance from assignment or publication. Keep WEB_BUILD_READY, HANDOFF_READY, HANDOFF_ACCEPTED and DEPLOYMENT_READY distinct.
 Write short result-linked tasks without duplicates; ask for missing contracts in their tasks. No frontend edits or user outreach.
 No nested agents. One bounded package; at most two fixes per cause; stop on orchestrator budget stop.
