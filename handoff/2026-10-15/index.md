@@ -10,6 +10,8 @@
 
 ## Единственные источники пакета
 
+Контрактная сверка15October: [единый реестр существующих источников и SHA](contracts/README.md), [все границы](contracts/boundaries.md), [матрица двух сторон](contracts/compatibility.md), [проверки/реальный E2E](contracts/verification.md). Текущий вердикт INCOMPATIBLE:65runner/14gateway/20web selected component tests passed,10negative probes подтвердили разрывы. Это не новая схема и не acceptance; real E2E BLOCKED/NOT_RUN, source PR/task/Wiki mutations отсутствуют в этом проходе.
+
 PR #11/review sync: [Wiki PPS-159](https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Wiki/PPS-159) дополнена через UI и перечитана после reload; PPS-169/138/167/166 содержат PR-ссылку и проверки по направлениям, итоговые metadata сохранены. [Протокол и полный текст проверок](pr-11-yougile-review.md). Это выполненная публикация дополнения PR, не утверждение, что весь ранее подготовленный r4 packet уже в Wiki. PR draft, no merge; человеческое принятие UNKNOWN.
 
 | Часть | Результат | Факт / обязательный вход |

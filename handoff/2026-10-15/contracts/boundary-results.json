@@ -1,0 +1,122 @@
+{
+  "scope": "isolated real functions/in-process routes plus static DDL comparison; NOT live E2E",
+  "compatible": false,
+  "checks": [
+    {
+      "check": "WEB_B_create_project_route",
+      "compatible": false,
+      "observed": {
+        "http": 404
+      }
+    },
+    {
+      "check": "RUNNER_hello_to_real_gateway",
+      "compatible": false,
+      "observed": {
+        "type": "command.error",
+        "request_type": "run.create",
+        "client_request_id": null,
+        "conversation_id": null,
+        "code": "invalid_command",
+        "message": "Неизвестный тип команды.",
+        "retryable": false
+      }
+    },
+    {
+      "check": "RUN_ID_domain_opaque_vs_uuid",
+      "compatible": false,
+      "observed": [
+        {
+          "type": "command.error",
+          "request_type": "run.subscribe",
+          "code": "invalid_subscription",
+          "message": "Некорректная команда run.subscribe."
+        }
+      ]
+    },
+    {
+      "check": "WAITING_FOR_INPUT_active_run",
+      "compatible": false,
+      "observed": [
+        "pending",
+        "running"
+      ]
+    },
+    {
+      "check": "PUBLIC_EVENT_facilitator.question",
+      "compatible": false,
+      "observed": {
+        "producerType": "facilitator.question",
+        "consumerType": "legacy.redacted",
+        "payloadPreserved": false,
+        "consumerSchemaFields": [
+          "schema_version"
+        ]
+      }
+    },
+    {
+      "check": "PUBLIC_EVENT_user.answer.accepted",
+      "compatible": false,
+      "observed": {
+        "producerType": "user.answer.accepted",
+        "consumerType": "legacy.redacted",
+        "payloadPreserved": false,
+        "consumerSchemaFields": [
+          "schema_version"
+        ]
+      }
+    },
+    {
+      "check": "PUBLIC_EVENT_artifact.created",
+      "compatible": false,
+      "observed": {
+        "producerType": "artifact.created",
+        "consumerType": "legacy.redacted",
+        "payloadPreserved": false,
+        "consumerSchemaFields": [
+          "schema_version"
+        ]
+      }
+    },
+    {
+      "check": "PUBLIC_EVENT_message.created",
+      "compatible": false,
+      "observed": {
+        "producerType": "message.created",
+        "consumerType": "message.created",
+        "payloadPreserved": false,
+        "consumerSchemaFields": [
+          "schema_version"
+        ]
+      }
+    },
+    {
+      "check": "GATEWAY_ORM_vs_INFRA_DDL_tables",
+      "compatible": false,
+      "observed": {
+        "missingInDDL": [
+          "conversations",
+          "events",
+          "messages"
+        ],
+        "extraInDDL": [
+          "containers",
+          "projects",
+          "users"
+        ]
+      }
+    },
+    {
+      "check": "RUNS_columns_on_shared_table",
+      "compatible": false,
+      "observed": {
+        "ormRequires": [
+          "conversation_id",
+          "client_request_id",
+          "next_event_seq"
+        ],
+        "sqlHas": []
+      }
+    }
+  ]
+}

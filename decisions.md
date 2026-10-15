@@ -250,3 +250,11 @@
 - Rationale: owner requested full Wiki fixation and teammate/agent handoff. Live PPS-2 nowaa9bb424contains a Proposed Storage ADR; local base is stale and branch diverges. Required GitHub checks/approvals/merge method UNKNOWN. Reconcile one real contract and preserve ADR before integration.
 - Evidence: `handoff/2026-10-15/web-transfer-wiki.md`, `owner-pr-merge.md`, `agent-dispatch.md`. Wiki read/list tools currently returnUnknown tool even after owner refresh; tasks remain accessible. Wiki update is not complete until write/readback succeeds.
 - Owner: Катя; actual merge owner and agreed backend contract still to be named/confirmed.
+
+## D-032 — One existing-contract registry before integration acceptance
+
+- Date: 2026-10-15
+- Status: owner-requested audit performed; contract acceptance and real E2E pending
+- Decision: consolidate immutable links/versions of existing protocol/events/ADR/WEB/infra documents, record actual caller/receiver boundaries and compare both code sides. Do not invent a replacement API, treat proposals as accepted, rewrite services or merge PRs. Contract tests precede a real question→answer→durable-save→download→restore run.
+- Evidence: [registry](handoff/2026-10-15/contracts/README.md), [boundary catalogue](handoff/2026-10-15/contracts/boundaries.md), [matrix](handoff/2026-10-15/contracts/compatibility.md), [verification](handoff/2026-10-15/contracts/verification.md).65runner/14gateway/20web selected component tests pass;10negative boundary probes confirm incompatibility. Real E2E BLOCKED/NOT_RUN, not a synthetic PASS.
+- Ownership: existing source contracts require review by their authors and consumers; publication of this package into the shared source repository or named YouGile records remains a separate external action. No new deadlines or changes to immutable T0.
