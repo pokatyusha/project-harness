@@ -207,3 +207,46 @@
 - Decision: preserve minimal A unchanged and build separate product B around the owner-supplied v9.2: explanation/example first, context/full input files, facilitator questions, participatory AI-role choice/plan, simplified Codex-like stage/artifact/version workspace. Show actual CTF consumption without product quotas; unknown values stay unknown. Offer A/B for team review through existing tracker records/Hub; no merge or deployment implied.
 - Rationale: owner explicitly requires these functions and reports prior prototype praise. That qualitative report is not a measured UX superiority or validated user result. B frontend is implemented and tested; live CTF, file extraction, validated role assignment and server storage require team integration.
 - Owner: Катя; technical contract reviewed by Дмитрий/Илья/Арина/Филипп.
+
+## D-027 — Hide technical CTF mentions only after connection
+
+- Date: 2026-10-15
+- Status: active requirement; implementation deferred until real integration
+- Decision: only after actual CTF connection, remove CTF-specific explanatory labels from the user-facing CoreTeams interface and use product-level wording. Until connection, retain existing preparation/unavailable warnings. Keep technical CTF identifiers and contracts in code/documentation; retain honest errors, unknown measurements and labelled examples after connection.
+- Rationale: owner explicitly corrected the timing to «После подключения!». A configured API URL, fixture or local frontend is not proof of connection. No frontend copy changed in this session.
+- Owner: project owner
+
+## D-028 — Consented local journey measurements in React B
+
+- Date: 2026-10-15
+- Status: implemented and technically verified; real user measurements NOT_RUN
+- Decision: add opt-in, locally persisted baseline/prototype/interface sessions to B, paired only by explicitly entered pseudonymous participant/task codes. Keep manual active/wait/pause classification, unknown recovery gaps, saved task-result selection, ratings, metadata-only events and private JSON/CSV export. Do not invent a server analytics sink or collect task/file/prompt/contact content. Do not treat fixture/UI-only/unfinished/interrupted runs as comparable result evidence.
+- Rationale: owner explicitly requested journey collection for comparison with the current way of doing the same task after CTF connection. Local observation is immediately usable; real prototype evidence still requires integration/deployment and consent. Repeated-task learning prevents causal attribution.
+- Evidence: source branch `codex/coreteams-v92-product-workspace-2026-10-15`, commit `213b4c4028ecc293c4b0913c563bf365ff7f43eb`;17 unit tests, build and extended desktop/mobile/fixture browser checks pass. A unchanged. Source published; this harness session record remains local pending separate context publication.
+- Owner: Катя conducts research; gateway/storage team separately agrees any future server ingestion and retention.
+
+## D-029 — Make baseline steps usable and keep server storage proposed
+
+- Date: 2026-10-15
+- Status: baseline journal/instructions implemented; server integration PROPOSED
+- Decision: add an explicit manual baseline step journal (action/tool, timestamps, barrier/outcome, result format), inline distinction between baseline/interface/CoreTeams and private export handoff. Capture categories, not raw task text or external-app surveillance. Add per-step JSON/CSV export and retain v1-session compatibility. Server research storage is a separate proposed consented/authenticated/receipt-backed integration, not automatic upload under existing local consent.
+- Evidence: published source98cc10a;19unit/type/build and full desktop/mobile/fixture suite pass. No server endpoint, participant data, tracker mutation or user E2E created. Local preview4192 rebuilt; A untouched. Harness record local-only.
+- Rationale: owner correctly noted that the earlier baseline was only a timer/markers; asked how data would be analysed and whether it could join server storage. Today the researcher receives exports through an agreed private channel; future server ingestion requires explicit updated consent and an agreed storage/API/deletion contract.
+- Owner: Катя; proposed storage/gateway/infra review by Арина/Дмитрий/Филипп, not a new assignment or sent message.
+
+## D-030 — Explain outcomes without rewriting research history
+
+- Date: 2026-10-15
+- Status: implemented; source8ab6c2a published
+- Decision: Russian outcome labels and missing-save reasons, separate elapsed time, diagnostic finish disclosure, explicit step/session outcomes and stop confirmation. Preserve original enum/data and never invent a save timestamp or promote an interrupted attempt to success.
+- Evidence:20unit/type/build/fullbrowser/status-browser1440/390 pass. Authorized local diagnostic export was inspected privately; no actual participant IDs, journal contents or exports enter published documentation.
+- Owner: project owner
+
+## D-031 — Consolidate WEB handoff and review before merge
+
+- Date: 2026-10-15
+- Status: owner-authorized documentation/task reconciliation; external receipts tracked in state/registry
+- Decision: consolidate current B/metrics/privacy/storage proposal and owner PR checklist, extend six existing cards rather than create migration duplicates, and explicitly delegate read-only PM/Git/evidence reviews. Do not merge, request external reviews, change deadlines/owners or start coupled backend implementations automatically.
+- Rationale: owner requested full Wiki fixation and teammate/agent handoff. Live PPS-2 nowaa9bb424contains a Proposed Storage ADR; local base is stale and branch diverges. Required GitHub checks/approvals/merge method UNKNOWN. Reconcile one real contract and preserve ADR before integration.
+- Evidence: `handoff/2026-10-15/web-transfer-wiki.md`, `owner-pr-merge.md`, `agent-dispatch.md`. Wiki read/list tools currently returnUnknown tool even after owner refresh; tasks remain accessible. Wiki update is not complete until write/readback succeeds.
+- Owner: Катя; actual merge owner and agreed backend contract still to be named/confirmed.
