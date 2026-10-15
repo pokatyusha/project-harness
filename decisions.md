@@ -258,3 +258,11 @@
 - Decision: consolidate immutable links/versions of existing protocol/events/ADR/WEB/infra documents, record actual caller/receiver boundaries and compare both code sides. Do not invent a replacement API, treat proposals as accepted, rewrite services or merge PRs. Contract tests precede a real question→answer→durable-save→download→restore run.
 - Evidence: [registry](handoff/2026-10-15/contracts/README.md), [boundary catalogue](handoff/2026-10-15/contracts/boundaries.md), [matrix](handoff/2026-10-15/contracts/compatibility.md), [verification](handoff/2026-10-15/contracts/verification.md).65runner/14gateway/20web selected component tests pass;10negative boundary probes confirm incompatibility. Real E2E BLOCKED/NOT_RUN, not a synthetic PASS.
 - Ownership: existing source contracts require review by their authors and consumers; publication of this package into the shared source repository or named YouGile records remains a separate external action. No new deadlines or changes to immutable T0.
+
+## D-033 — Owner approves WEB responses16–21 and named publication
+
+- Date: 2026-10-15
+- Status: approved by WEB owner; comment sent and independently read back; cross-service acceptance/implementation pending
+- Decision: accept the short six-answer text shown to Катя, including new Run for post-completion revision within the same project and approval separate from durable save/terminal Run stream. Preserve same-Run facilitator answers, B as product baseline/A as reference, explicit unknown/recovery, structured questions and validated plan/roles/files.
+- Authority: owner explicitly approved answers20–21 and authorized posting this text to Ilia in PPS-138 and fixing agreed answers in project-harness. This is not authority to merge, edit source services, create new tasks, change deadlines or send other communications.
+- Evidence: [exact comment/receipt](handoff/2026-10-15/contracts/web-answers-16-21.md), message1792071440469, UI plus plugin readback. Full expanded private draft is not promoted to an accepted contract. Existing APIs remain proposed where not jointly agreed/implemented; E2E NOT_RUN.

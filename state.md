@@ -8,6 +8,10 @@ Updated: 2026-10-15 (Europe/Moscow)
 
 ## Week focus
 
+Owner approved short WEB answers16–21 including20–21 and explicitly authorized posting/publishing. [Exact comment/receipt](handoff/2026-10-15/contracts/web-answers-16-21.md): posted once in PPS-138, timestamp1792071440469; UI and plugin readback confirm full text. B baseline, unknown/recovery, structured questions, validated plan/roles/files, new Run for post-terminal revision; approval separate from save/closed Run stream. This is WEB-owner sign-off, not cross-owner acceptance or implementation. Source/PR/merge untouched. Other task metadata matched; deadline display differed4s, event history contains no deadline mutation, no corrective deadline write performed. D-033; publication of this agreed operational record authorized.
+
+Public linked supplements to earlier audit: review/runbook4aaa3cd9, mappinge03d0261 and ZIP-validator81224588. Runner-side decisions22–25 describe future implementation, not completed joint integration. WEB16–21 now owner-approved and sent as above; agreement by other service owners still pending. Real E2E remains NOT_RUN; earlier65/14/20 tests were not rerun or replaced by reported third-party counts.
+
 Contract audit15October: consolidate existing contracts without replacing them; current pinned gateway/runner/WEB/storage/infra are **INCOMPATIBLE**. [Registry and owner checks](handoff/2026-10-15/contracts/README.md), [both-side matrix](handoff/2026-10-15/contracts/compatibility.md). Selected component tests65runner/14gateway/20web pass;10boundary probes expose mismatches. Real E2E BLOCKED/NOT_RUN: runner-facing gateway, artifact bytes/storage channel and compatible DB/deployment are not established; local Docker daemon unavailable. No services rewritten, task/deadline changes, human acceptance, source PR/merge or outreach. Original T0/checkpoints unchanged.
 
 Deliver the owner-requested WEB and integration package at the immutable checkpoints08:03/09:03MSK15October, then gate real CTF, storage, deployment and paired user results. Execution record: `orchestrator/launch-2026-10-15.md`; package: `handoff/2026-10-15/index.md`.
