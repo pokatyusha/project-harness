@@ -4,6 +4,10 @@
 
 ## 1. Открыть draft PR, не нажимать merge
 
+Уже выполнено агентом по явному запросу владельца: [draft PR #11](https://github.com/AcryCxde/PP-Sber-Autumn-2026/pull/11). Проверено GitHub GET: open/draft:true, basePPS-2aa9bb424/headB8ab6c2a, merged:false, auto_merge:null. Полное описание и checklist опубликованы; отдельные review requests не отправлялись. Не создавать второй PR по инструкции ниже.
+
+Повторяемый fallback при create-PR403: проверить отсутствие дубля через плагин → открыть точную compare-пару в Codex browser → при Sign in передать вход владельцу, не запрашивать секреты в чате → заполнить [готовое описание](draft-pr-body.md) → выбрать Draft → отправить один раз → проверить Draft/base/head/body через UI и плагин GET → прикрепить PR к чату и обновить записи. Не менять разрешения приложения, не извлекать credentials и не нажимать merge/ready-for-review/auto-merge. При неясном результате отправки сначала искать существующий PR, а не отправлять повторно.
+
 [Сравнение PPS-2 ← WEB B](https://github.com/AcryCxde/PP-Sber-Autumn-2026/compare/PPS-2...codex/coreteams-v92-product-workspace-2026-10-15?expand=1).
 
 - Base: `PPS-2` (не master/main). Head: `codex/coreteams-v92-product-workspace-2026-10-15`.
