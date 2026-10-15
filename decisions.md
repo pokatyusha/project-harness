@@ -199,3 +199,11 @@
 - Decision: retain exactly `CoreTeams — Рабочее пространство с AI-командой для сложных задач вне одной экспертизы` across modules. The current defence checks the user journey, not a renamed brief product. Prepare team tasks only after live Sprint2/ownership audit: Дмитрий gateway (PPS-169/170), Илья runner/CTF (PPS-137/138), Арина storage (PPS-167/136/135), Филипп infra (PPS-166/142). Conditional React help is additional, not Дмитрий's main role.
 - Rationale: explicit owner clarification and current tracker evidence; avoid duplication or assigning work outside each person's direction.
 - Owner: project owner
+
+## D-026 — Retain v9.2 product journey and offer two WEB candidates
+
+- Date: 2026-10-15
+- Status: active
+- Decision: preserve minimal A unchanged and build separate product B around the owner-supplied v9.2: explanation/example first, context/full input files, facilitator questions, participatory AI-role choice/plan, simplified Codex-like stage/artifact/version workspace. Show actual CTF consumption without product quotas; unknown values stay unknown. Offer A/B for team review through existing tracker records/Hub; no merge or deployment implied.
+- Rationale: owner explicitly requires these functions and reports prior prototype praise. That qualitative report is not a measured UX superiority or validated user result. B frontend is implemented and tested; live CTF, file extraction, validated role assignment and server storage require team integration.
+- Owner: Катя; technical contract reviewed by Дмитрий/Илья/Арина/Филипп.

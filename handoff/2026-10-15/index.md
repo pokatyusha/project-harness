@@ -1,6 +1,6 @@
 # CoreTeams — индекс передачи
 
-Владелец: Катя. Ревизия: 2. Основание: задание и уточнения владельца15.10.2026. Время запуска и сроки: [execution record](../../orchestrator/launch-2026-10-15.md). Предыдущая ревизия: пакет f88e046/d5f9aa3.
+Владелец: Катя. Ревизия: 3. Основание: задание и уточнения владельца15.10.2026. Время запуска и сроки: [execution record](../../orchestrator/launch-2026-10-15.md). Предыдущая ревизия: d5edd53; варианты A/B: [новая передача WEB](web-candidates.md).
 
 **CoreTeams — Рабочее пространство с AI-командой для сложных задач вне одной экспертизы.** Название неизменно. Фокус спринта: проверка пути пользователя.
 
@@ -11,6 +11,7 @@
 | Часть | Результат | Факт / обязательный вход |
 |---|---|---|
 | WEB | [React/Vite/TypeScript](https://github.com/AcryCxde/PP-Sber-Autumn-2026/tree/codex/coreteams-react-handoff-2026-10-15/web-app), commit `f6eff6652600645245064817cced8510140503ee` | Типы, сборка,8unit и desktop/mobile/browser-fixture проверки прошли. PR-плагин вернул403; [создать PR](https://github.com/AcryCxde/PP-Sber-Autumn-2026/compare/PPS-2...codex/coreteams-react-handoff-2026-10-15?expand=1). Исходный dirty PPS не изменён |
+| WEB B — пользовательский путь v9.2 | [web-product4915d25](https://github.com/AcryCxde/PP-Sber-Autumn-2026/tree/4915d25b407d9bdb5fad6f99c01e4c3d31f4b8ce/web-product), [два варианта для команды](web-candidates.md) | A сохранён; отдельный B с онбордингом/примером, полными локальными файлами, выбором команды/плана, этапами/документами/версиями и замерами без продуктовых квот.8unit/build/desktop/mobile/fixtures пройдены; V2 API proposed и выключен, CTF не подключён |
 | Илья — CTF | [Интеграционный контракт](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/codex/coreteams-react-handoff-2026-10-15/web-app/docs/integration.md), [skill результата](../../.agents/skills/coreteams-pilot-result/SKILL.md) | PPS-138 обновлена; операции proposed, подтверждение Ильи отсутствует |
 | Филипп — CI и сервер | [Сборка и сервер](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/codex/coreteams-react-handoff-2026-10-15/web-app/docs/deployment.md) | PPS-166 обновлена; срок15.10 15:00:02 сохранён, расхождение с ориентиром пятницы отмечено. Нужны CTF и архитектура Арины |
 | Арина — архитектура хранения | [Требования WEB](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/codex/coreteams-react-handoff-2026-10-15/web-app/docs/storage-requirements.md) | PPS-167 обновлена; архитектура и инструкция подключения отсутствуют, срок09:03:08MSK15.10 |

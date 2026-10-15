@@ -6,6 +6,8 @@ Maintain project context and move five tracks forward: PM, Direction 2.5, video,
 
 Product identity is immutable: **CoreTeams — Рабочее пространство с AI-командой для сложных задач вне одной экспертизы**. Never rename the product or replace its description with a sprint's test artifact. The current sprint defence focuses on checking the user journey; keep planned checks, technical evidence and measured user results separate.
 
+The owner-approved user-facing WEB baseline retains v9.2 flows: explanation/example before a first task, context and real input files, facilitator questions, participation in AI-team choice, agreed plan, and a simplified Codex-like stage/document/version workspace. Candidate B `web-product` implements the frontend; candidate A `web-app` remains a separately offered minimal integration reference. Never silently drop these flows for the shorter A journey. Measure actual CTF usage without product quota gates; preserve backend/provider safety controls and mark unavailable measurements unknown.
+
 ## First minute
 
 - Active CoreTeams handoff: `orchestrator/launch-2026-10-15.md` and `handoff/2026-10-15/index.md`; restore T0 and readiness evidence before resuming. Its explicit owner execution request permits isolated WEB source work and named PM tracker/Wiki updates; retain the original dirty PPS checkout.

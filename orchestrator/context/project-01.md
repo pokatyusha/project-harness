@@ -48,3 +48,9 @@ No `AGENTS.md` or `CLAUDE.md` was present in the collected manifest.
 ## Refresh trigger
 
 Refresh before a specification proposal, an implementation request, a pilot-facing decision, a branch change, or any update to the listed source documents.
+
+## Read-only functional comparison 2026-10-15
+
+Partial refresh for the owner's question about post-CTF functions, previous UI and visual appearance. Read mapped local `web-demo/README.md` and `web-demo/ARCHITECTURE.md`; GitHub plugin verified the remote PPS-2 README and isolated feature `web-app/README.md`/`docs/integration.md`. Source delivery f6eff66 was inspected via `src/App.tsx`, `types.ts`, `api.ts`, `style.css` and its synthetic-result screenshot. Remote PPS-2 README still describes static v9 while the dirty local README describes the React migration; use the local React as the prior-interface baseline, without claiming those edits are remote.
+
+The prior React UI has onboarding, three demo questions, team/plan, revisions, approvals and Markdown export. New `web-app` is an integration subset: browser drafts, context, proposed server project/run/answer/save/ZIP client, manual status refresh and explicit unavailable/error states. It does not preserve team builder, plan approval, revision history, attachments or prior-data import. CTF integration alone does not add these UI features or durable storage/cross-device recovery. Full comparison is a local deliverable registered in `registry.md`; no source code or tracker changed. No UX superiority or user result was established.

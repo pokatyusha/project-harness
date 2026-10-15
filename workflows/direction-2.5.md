@@ -8,6 +8,10 @@ Deliver bounded, verified web changes for CoreTeams Product Web. Research and sp
 
 Product repository, stakeholder brief, existing requirements, and research evidence.
 
+## Current user-facing baseline
+
+Owner15October: preserve the praised v9.2 functionality while improving workspace/artifacts/versions. Start with explanation and a labelled example, then goal/context/full input-file bytes, preparation/facilitator questions, editable proposed AI-team and plan, stage/document/version workspace. Candidate B `web-product` is separate from retained minimal A `web-app`; neither is a live CTF claim. Actual usage only, no artificial credit/project/token quota gates. Required integration/status distinctions are in `handoff/2026-10-15/web-candidates.md`.
+
 ## Procedure
 
 1. Launch GitHub and load `coreteams-web-development`; inspect the relevant CoreTeams repository, branch, PR, commit, or file before proposing a web change.

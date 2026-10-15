@@ -4,11 +4,15 @@ Updated: 2026-10-15 (Europe/Moscow)
 
 ## Repositories
 
-Active delivery: isolated `coreteams-web-handoff` checkout on `codex/coreteams-react-handoff-2026-10-15`, pushed commit `f6eff6652600645245064817cced8510140503ee` to AcryCxde/PP-Sber-Autumn-2026; separate `web-app/` React/Vite/TS app. Original mapped dirty checkout remains read-only. Draft PR creation returned403 (integration permission); no PR exists for this work yet.
+Active delivery: isolated `coreteams-web-handoff` now on `codex/coreteams-v92-product-workspace-2026-10-15`, published B commit `4915d25b407d9bdb5fad6f99c01e4c3d31f4b8ce`, separate `web-product/`. A remains at `codex/coreteams-react-handoff-2026-10-15`, commit `f6eff6652600645245064817cced8510140503ee`, unchanged `web-app/`. Both target AcryCxde/PP-Sber-Autumn-2026. Original mapped dirty checkout remains read-only. Draft PR creation returned403 for B as for the earlier A attempt; no PR created by this agent and no merge performed.
 
 Agent runtime: project-scoped `.codex/config.toml` and four `.codex/agents/*.toml` files; explicit collaboration launches performed. Continuation: verified ACTIVE heartbeat `coreteams-e2e`, every3hours, attached to this thread with owner approval; pause must also disable it. Delivery/clock/budget registry: `orchestrator/launch-2026-10-15.md` and `handoff/2026-10-15/index.md`.
 
 Owner clarification15October: immutable product `CoreTeams — Рабочее пространство с AI-командой для сложных задач вне одной экспертизы`; current sprint checks the user journey. Current editable deck: `handoff/2026-10-15/presentation/CoreTeams-defence-draft-2026-10-15-r2.pptx`, source/notes/motion updated; old draft retained. User-facing local preview: `http://127.0.0.1:4190/`, browser tab retained, build f6eff66; no shared deployment/CTF implied. Four teammate criteria: `handoff/2026-10-15/team-sprint-2-tasks.md`.
+
+Local-only explanatory deliverable15October: `../deliverables/CoreTeams-user-functionality-and-interface.md` describes post-CTF functions, previous local React versus new integration subset, and current conditional UI. The screenshot uses isolated synthetic responses, not CTF evidence. This analysis/record refresh is not published; no source changes, tracker mutation, PR or deployment occurred in this pass.
+
+Subsequent owner implementation request supersedes that analysis-only pass: B now implements the requested frontend additions and is published; the explanatory file still describes A, not B. [Current A/B handoff](handoff/2026-10-15/web-candidates.md). Owner local previews4190(A)/4192(B) both returned200 on15October04:49MSK; neither is a common-server URL. Test-only fixture4191 is not a user deliverable.
 | Name | Role | Location | Default branch | Access / status |
 |---|---|---|---|---|
 | project-harness | Project operating context | https://github.com/pokatyusha/project-harness | `main` | Separate personal repository; local checkout at `C:\\Users\\Екатерина Поварнина\\Desktop\\агент-обвязка проекта\\project-harness`; GitHub plugin is required for harness-function changes; OpenSpec uses the `spec-driven` schema; local verifier passed on 2026-10-15; no task worktree active; project skills live in `.agents/skills/`, including `coreteams-web-development`; owner launch guide: `Agent.md`. |
@@ -19,6 +23,8 @@ Owner clarification15October: immutable product `CoreTeams — Рабочее п
 Live15October, 03:39MSK: PPS-139/165/138/167/166 updated and reread, existing `CoreTeams — Project Hub для заказчика` page `ab681161-45e0-4aa4-b34a-3ed006f6489a` appended without a second index page. Published artifact links to WEB commit f6eff66 and harness package f88e046 were added and verified in all five tasks and Hub; owners, deadlines, columns and completion stayed unchanged. Assignment does not establish recipient acceptance.
 
 Live03:57MSK: after the requested direction/Sprint2 audit, added user-path acceptance criteria to PPS-169 (Дмитрий gateway), PPS-138 (Илья CTF/E2E), PPS-167 (Арина storage) and PPS-166 (Филипп CI/deploy). All four reread and verified; owners/deadlines/columns/completion/colors unchanged. No new tasks, comments, invitations or recipient acknowledgment.
+
+Live04:49MSK: owner-requested offer of A/B added to the same four tasks and Hub PPS-148. Readback verified titles/4915d25/review links and unchanged owners/deadlines/columns/completion. No email, team-chat message, respondent outreach or recipient acknowledgment. Review instructions are in the published source `docs/WEB-CANDIDATES-2026-10-15.md`.
 | System | Purpose | Location | Status |
 |---|---|---|---|
 | YouGile | Project tracker | https://ru.yougile.com/team/3f3c9f205187/ПП-Сбер-__dash__-осень/Общий-backlog-и-учебные-спринты | Active authenticated board verified on 2026-10-14: `ПП Сбер - осень` / `Общий backlog и учебные спринты`; plugin is required before planning, task, report, or context work. Tasks `PPS-180`–`PPS-186` were created on 2026-10-14; the tracker has no distinct next-sprint container. |
