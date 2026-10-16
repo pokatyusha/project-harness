@@ -17,8 +17,9 @@ Team roster, milestones, decisions, YouGile task state, and repository changes.
 5. Add decisions and risks when they appear.
 6. Update only affected plan/fact blocks.
 7. Before assigning parallel work, apply the readiness gate in `workflows/worktree.md`.
+8. Route each confirmed defect or incompatibility through `workflows/mismatches.md`: an approved bounded fix or a tracked follow-up with an owner and verification. Do not finish with an unowned findings list.
 
-Before mutating YouGile, obtain confirmation of the exact tasks and fields. See `orchestrator/plugin-routing.md`.
+Before mutating YouGile, follow the owner-authority and connector-confirmation rules in `orchestrator/plugin-routing.md`. A direct request already confirmed for the same target/scope does not need a redundant question; unrelated mutations remain out of scope.
 
 ## Done
 

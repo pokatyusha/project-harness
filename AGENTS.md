@@ -33,6 +33,7 @@ The owner-approved user-facing WEB baseline retains v9.2 flows: explanation/exam
 - Make targeted edits: a line or a block, never a whole-document rewrite without a reason.
 - Record every decision in `decisions.md`, every risk in `risks.md`, and plan/fact in `state.md`.
 - Sync task status with YouGile and code/PR status with GitHub.
+- Every confirmed mismatch needs an action, not only a report: propose a bounded fix and obtain the owner's approval before implementation, or promptly create/update the matching YouGile task with a known owner, evidence, acceptance check and next action. Do not invent missing contract decisions, assignees or deadlines. Follow `workflows/mismatches.md`; task creation does not authorize source changes, publication or merge.
 - Launch YouGile before planning, task, report, or project-context work; launch GitHub before repository or branch access. Follow `orchestrator/plugin-routing.md` for the permitted read/write sequence.
 - Commit every verified agent-function change to `project-harness` and synchronize it to `main`; obtain owner permission before publishing chat-derived or other non-public project context.
 - Do not send emails, invitations, publish content, or contact people without owner confirmation.

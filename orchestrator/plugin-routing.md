@@ -9,6 +9,8 @@ Launch the YouGile plugin before handling any request that changes or reports pr
 3. Reconcile the affected `state.md`, `registry.md`, decisions, and risks only after reading the relevant YouGile evidence.
 4. Before creating or changing a task, column, checklist, deadline, assignee, board, wiki page, or other YouGile record, show the exact target and obtain explicit owner confirmation.
 
+For confirmed mismatches, the owner has requested prompt follow-up tasks instead of a report-only ending (`workflows/mismatches.md`). Use a direct current request/confirmation or an applicable explicit standing authorization as the scope boundary; obtain any fresh confirmation the connector requires. Do not repeatedly ask for an action already confirmed for the same targets. This does not permit arbitrary deadlines, unknown assignees, reopening unrelated completed work, Wiki rewrites or external messages.
+
 Do not use a chat snapshot as a substitute for an available YouGile status. If the plugin is unavailable or unauthenticated, report `YOUGILE_UNAVAILABLE`; do not invent tracker facts.
 
 ## GitHub — repository facts and harness changes
