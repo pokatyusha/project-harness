@@ -1,0 +1,5 @@
+# Unified diff context contains mandatory single-space blank lines.
+handoff/2026-10-16/contracts-review/*.patch -whitespace
+# Preserve exact source snapshots and inherited whitespace in review copies.
+handoff/2026-10-16/contracts-review/base/*.md -whitespace
+handoff/2026-10-16/contracts-review/proposed/*.md -whitespace

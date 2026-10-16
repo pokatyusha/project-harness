@@ -6,6 +6,8 @@
 
 ## Как пользоваться
 
+Дополнение16October: владелец подтвердил durable-запись через gateway и разрешил [публикацию точечных ADR/mapping правок на ревью](../../2026-10-16/contracts-review/README.md). В пакете отдельно сверены уже существующие runner input/usage/hash, ZIP builder, fork/WSS и isolation ветки; их не писать заново. Авторские ветки/PR не меняются; общий Accepted и реальный E2E не подтверждены. PR11 оставить draft, ничего не сливать.
+
 Обновление16October: WEB-владелец поручил применить16–21 в B; [ce8b6f4](https://github.com/AcryCxde/PP-Sber-Autumn-2026/commit/ce8b6f4259f682f74e128fcce12e0290e02f9186) реализует клиентскую часть,35unit/type/build/desktop/mobile fixture checks PASS. [Проверки/ограничения](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/ce8b6f4259f682f74e128fcce12e0290e02f9186/web-product/docs/verification.md), [существующее B-предложение обновлено на месте](https://github.com/AcryCxde/PP-Sber-Autumn-2026/blob/ce8b6f4259f682f74e128fcce12e0290e02f9186/web-product/docs/ctf-v2-contract.md). Joint service mapping/approval metadata остаются открыты; backend не менялся, реальный E2E NOT_RUN. PR11 draft/unmerged. Закреплённый срез15October ниже не переписан и не повышен до совместимости из-за frontend-тестов.
 
 Дополнение15October: Катя согласовала [короткие ответы WEB16–21](web-answers-16-21.md), включая новую попытку доработки после terminal и отдельное одобрение версии. Точный текст отправлен одним комментарием в PPS-138 и перечитан плагином. Это принято web-владельцем, но ещё не всеми сторонами и не реализовано. Срез несовместимости ниже сохраняется; новых service tests/merge нет.
